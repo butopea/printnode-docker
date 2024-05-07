@@ -1,19 +1,7 @@
 FROM ubuntu:22.04
 MAINTAINER Butopêa <alex@butopea.com>
 
-# ENV variables
 ENV DEBIAN_FRONTEND noninteractive
-ENV TZ "Europe/Budapest"
-ENV CUPSADMIN admin
-ENV CUPSPASSWORD password
-ENV PRINTNODE_HOSTNAME docker
-
-
-LABEL org.opencontainers.image.source="https://github.com/butopea/printnode"
-LABEL org.opencontainers.image.description="Printnode / CUPS Printer Server"
-LABEL org.opencontainers.image.author="Alex Schikalow <alex@butopea.com>"
-LABEL org.opencontainers.image.url="https://github.com/butopea/printnode-docker/blob/main/README.md"
-
 
 # Install dependencies
 RUN apt-get update -qq  && apt-get upgrade -qqy \
@@ -46,6 +34,12 @@ RUN mkdir /usr/local/PrintNode \
 RUN rm /usr/lib/cups/backend/parallel \
      && rm /usr/lib/cups/backend/serial \
      && rm /usr/lib/cups/backend/cups-brf
+
+# ENV variables
+ENV TZ "Europe/Budapest"
+ENV CUPSADMIN print
+ENV CUPSPASSWORD print
+ENV PRINTNODE_HOSTNAME docker
 
 # Baked-in config file changes
 RUN sed -i 's/Listen localhost:631/Listen 0.0.0.0:631/' /etc/cups/cupsd.conf && \

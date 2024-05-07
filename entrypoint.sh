@@ -19,7 +19,7 @@ fi
 /usr/sbin/cupsd
 
 exec /usr/local/PrintNode/PrintNode \
+    --computer-name $PRINTNODE_HOSTNAME \
     --headless \
     --web-interface \
-    --use-enviroment-variables \
-    --computer-name $PRINTNODE_HOSTNAME
+    --use-enviroment-variables
