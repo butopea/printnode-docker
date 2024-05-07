@@ -1,0 +1,43 @@
+name: Odoo Build Base Image
+
+on:
+  push:
+    branches:
+      - 'main'
+    paths-ignore:
+      - '**.md'
+      - '**.yml'
+  pull_request:
+    branches:
+      - 'main'
+
+env:
+  IMAGE_NAME: printnode
+
+jobs:
+  build_push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout including submodules
+        uses: actions/checkout@v4
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ vars.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+      - name: Name Docker Image
+        id: meta-docker-naming
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ vars.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}
+      - name: Build image & Push to Dockerhub
+        uses: docker/build-push-action@v5
+        with:
+          context: ./
+          file: Dockerfile
+          platforms: linux/amd64
+          push: true
+          tags: |
+           ${{ steps.meta-docker-naming.outputs.tags }}

@@ -3,6 +3,7 @@
 # dotfiles
 .*
 !.gitignore
+!.github
 !.mailmap
 
 # development config files
