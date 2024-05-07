@@ -1,0 +1,21 @@
+.idea
+
+# dotfiles
+.*
+!.gitignore
+!.mailmap
+
+# development config files
+/configs
+docker-compose.yml
+
+# various virtualenv
+/bin/
+/build/
+/dist/
+/include/
+/lib/
+/man/
+/share/
+/src/
+/venv/
