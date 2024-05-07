@@ -4,9 +4,12 @@ on:
   push:
     branches:
       - 'main'
-    paths-ignore:
-      - '**.md'
-      - '**.yml'
+    paths:
+      - '*'
+      - '.github/workflows/main.yml'
+      - '!.github/workflows/dockerhub-description.yml'
+      - '!*.md'
+      - '!*.yml'
   pull_request:
     branches:
       - 'main'
