@@ -32,6 +32,8 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: ${{ github.repository }}
+          tags: |
+            type=raw,value=latest,enable={{is_default_branch}}
       - name: Build image & Push to Dockerhub
         uses: docker/build-push-action@v5
         with:
@@ -40,5 +42,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            type=raw,value=latest,enable={{is_default_branch}}
             ${{ steps.meta-docker-naming.outputs.tags }}
