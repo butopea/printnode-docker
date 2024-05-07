@@ -46,7 +46,7 @@ Environment variables that can be changed to suit your needs
 ## Add printers to the Cups server
 1. Connect to the Cups server at [http://127.0.0.1:631](http://127.0.0.1:631) (or the port you have exposed)
 2. Add printers: Administration > Printers > Add USB printers or remote network printer
-3. It will be automatically picked up by Printnode
+3. They will be automatically picked up by Printnode
 
 __Note__: The admin user/password for the Cups server is by default `print`/`print`. Can be customized via env vars.
 
@@ -77,11 +77,6 @@ the changes. "udev-rule-generator" is safe to run multiple times. You should run
 Using "udev-rule-generator" is the easiest way to create and manage udev rules.
 
 `sudo ./udev-rule-generator`
-
-If you choose to create udev rules manually. The following links may be helpful.
-
-- https://github.com/signal11/hidapi/blob/master/udev/99-hid.rules
-- http://www.reactivated.net/writing_udev_rules.html
 
 To whitelist all USB hidraw devices for all users, add the following text to
 /etc/udev/rules.d/10-scales.rules:
