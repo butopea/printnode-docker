@@ -40,4 +40,6 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-           ${{ steps.meta-docker-naming.outputs.tags }}
+            ${{ steps.meta-docker-naming.outputs.tags }}
+             # set latest tag for default branch
+            type=raw,value=latest,enable={{is_default_branch}}
