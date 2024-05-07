@@ -41,7 +41,7 @@ ENV CUPSADMIN print
 ENV CUPSPASSWORD print
 ENV PRINTNODE_HOSTNAME docker
 
-# Baked-in config file changes
+# Config file changes
 RUN sed -i 's/Listen localhost:631/Listen 0.0.0.0:631/' /etc/cups/cupsd.conf && \
     sed -i 's/Browsing Off/Browsing On/' /etc/cups/cupsd.conf && \
     sed -i 's/<Location \/>/<Location \/>\n  Allow All/' /etc/cups/cupsd.conf && \
@@ -50,7 +50,7 @@ RUN sed -i 's/Listen localhost:631/Listen 0.0.0.0:631/' /etc/cups/cupsd.conf && 
     echo "ServerAlias *" >> /etc/cups/cupsd.conf && \
     echo "DefaultEncryption Never" >> /etc/cups/cupsd.conf
 
-# back up cups configs in case users do not add their own
+# Backup of Cups folder in case users do not add their own
 RUN cp -rp /etc/cups /etc/cups-bak
 VOLUME [ "/etc/cups" ]
 

@@ -11,7 +11,7 @@ if [ $(grep -ci $CUPSADMIN /etc/shadow) -eq 0 ]; then
     dpkg-reconfigure --frontend noninteractive tzdata
 fi
 
-# restore default cups config in case user does not have any
+# restore default Cups config in case user does not have any
 if [ ! -f /etc/cups/cupsd.conf ]; then
     cp -rpn /etc/cups-bak/* /etc/cups/
 fi

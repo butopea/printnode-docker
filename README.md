@@ -22,8 +22,8 @@ services:
             - PRINT_CLIENT_PASSWORD=printprint
             - TZ="Europe/Budapest"
         volumes:
-            - <persistent-config-path>:/etc/cups
-            - <persistent-config-path-printnode>: /root/.printnode/printnode
+            - <persistent-config-path-cups>:/etc/cups
+            - <persistent-config-path-printnode>:/root/.printnode/printnode
 ```
 
 ### Parameters and defaults
