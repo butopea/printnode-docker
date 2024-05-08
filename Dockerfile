@@ -11,6 +11,7 @@ RUN apt-get update -qq  && apt-get upgrade -qqy \
     usbutils \
     cups \
     cups-filters \
+    cups-bsd \
     printer-driver-all \
     printer-driver-cups-pdf \
     printer-driver-foo2zjs \
