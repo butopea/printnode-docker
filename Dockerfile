@@ -5,9 +5,10 @@ ENV DEBIAN_FRONTEND noninteractive
 
 # Install dependencies
 RUN apt-get update -qq  && apt-get upgrade -qqy \
-    && apt-get install -qqy \
-    apt-utils \
+    && apt-get install -qqy --no-install-recommends \
     curl \
+    ca-certificates \
+    tzdata \
     usbutils \
     cups \
     cups-filters \
@@ -20,21 +21,18 @@ RUN apt-get update -qq  && apt-get upgrade -qqy \
     hpijs-ppds \
     hp-ppd \
     hplip \
-    avahi-daemon \
     && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
-
+    && rm -rf /var/lib/apt/lists/* \
+    && rm /usr/lib/cups/backend/parallel \
+    && rm /usr/lib/cups/backend/serial \
+    && rm /usr/lib/cups/backend/cups-brf
+    
 # Setup PrintNode
 RUN mkdir /usr/local/PrintNode \
     && curl -s https://dl.printnode.com/client/printnode/4.27.17/PrintNode-4.27.17-ubuntu-22.04-x86_64.tar.gz -o /tmp/printnode.tar.gz \
     && echo "d767740faf8f9b6977ad7b8fe9201dfb225c6378 /tmp/printnode.tar.gz" | sha1sum -c - \
     && tar -xzf /tmp/printnode.tar.gz -C /usr/local/PrintNode --strip-components 1 \
     && rm /tmp/printnode.tar.gz
-
-# Remove backends that aren't needed
-RUN rm /usr/lib/cups/backend/parallel \
-     && rm /usr/lib/cups/backend/serial \
-     && rm /usr/lib/cups/backend/cups-brf
 
 # ENV variables
 ENV TZ "Europe/Budapest"
