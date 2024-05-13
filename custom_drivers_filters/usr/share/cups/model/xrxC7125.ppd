@@ -1,0 +1,1679 @@
+*PPD-Adobe: "4.3"
+*% Adobe Systems PostScript(R) Printer Description File
+*% Copyright 2009 Adobe Systems Incorporated. 
+*% All Rights Reserved. 
+*% Permission is granted for redistribution of this file as
+*% long as this copyright notice is intact and the contents
+*% of the file is not altered in any way from its original form.
+*% End of Copyright statement
+*% 
+*%   Filename: xrxC7125.PPD 
+*%   Product Version: 7.0
+*%
+*FormatVersion: "4.3"
+*FileVersion: "1.0"
+*LanguageVersion: English
+*LanguageEncoding: UTF-8
+*PCFileName: "xrxC7125.ppd"
+*Manufacturer: "Xerox"
+*Product: "(Xerox VersaLink C7125 Color MFP)"
+*PSVersion: "(3016.103) 6"
+*ModelName: "Xerox VersaLink C7125 Color MFP"
+*ShortNickName: "Xerox VersaLink C7125 Color MFP" 
+*NickName: "Xerox VersaLink C7125 Color MFP"
+
+
+*% ====	Media type v/s  Duplex Constraints ====
+*UIConstraints: *Duplex *MediaType PlainReload
+*UIConstraints: *Duplex *MediaType LightweightCardstockReloaded
+*UIConstraints: *Duplex *MediaType LightweightGlossyCardstockReloaded
+*UIConstraints: *Duplex *MediaType GlossyCardstock
+*UIConstraints: *Duplex *MediaType GlossyCardstockReloaded
+*UIConstraints: *Duplex *MediaType HeavyweightGlossyCardstock
+*UIConstraints: *Duplex *MediaType HeavyweightGlossyCardstockReloaded
+*UIConstraints: *Duplex *MediaType HeavyweightCardstock
+*UIConstraints: *Duplex *MediaType HeavyweightCardstockReloaded
+*UIConstraints: *Duplex *MediaType ThinCardStock
+*UIConstraints: *Duplex *MediaType CardstockReloaded
+*UIConstraints: *Duplex *MediaType Labels
+*UIConstraints: *Duplex *MediaType HeavyweightLabels
+*UIConstraints: *Duplex *MediaType ExtraHeavyweightLabels
+*UIConstraints: *Duplex *MediaType Envelope
+
+
+*% ====	Media size v/s  Media type Constraints ====
+
+*UIConstraints :*PageSize Env10 *MediaType PrinterDefault
+*UIConstraints :*MediaType PrinterDefault *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType Plain
+*UIConstraints :*MediaType Plain *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType PlainReload
+*UIConstraints :*MediaType PlainReload *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType Punched  
+*UIConstraints :*MediaType Punched  *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType Recycled
+*UIConstraints :*MediaType Recycled *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType Letterhead
+*UIConstraints :*MediaType Letterhead *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType LightweightCardstock
+*UIConstraints :*MediaType LightweightCardstock *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType LightweightCardstockReloaded
+*UIConstraints :*MediaType LightweightCardstockReloaded *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType LightweightGlossyCardstock
+*UIConstraints :*MediaType LightweightGlossyCardstock *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType LightweightGlossyCardstockReloaded
+*UIConstraints :*MediaType LightweightGlossyCardstockReloaded *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType GlossyCardstock
+*UIConstraints :*MediaType GlossyCardstock *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType GlossyCardstockReloaded
+*UIConstraints :*MediaType GlossyCardstockReloaded *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType HeavyweightGlossyCardstock
+*UIConstraints :*MediaType HeavyweightGlossyCardstock *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType HeavyweightGlossyCardstockReloaded
+*UIConstraints :*MediaType HeavyweightGlossyCardstockReloaded *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType HeavyweightCardstock
+*UIConstraints :*MediaType HeavyweightCardstock *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType HeavyweightCardstockReloaded
+*UIConstraints :*MediaType HeavyweightCardstockReloaded *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType ThinCardStock
+*UIConstraints :*MediaType ThinCardStock *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType CardstockReloaded
+*UIConstraints :*MediaType CardstockReloaded *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType Labels
+*UIConstraints :*MediaType Labels *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType HeavyweightLabels
+*UIConstraints :*MediaType HeavyweightLabels *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType ExtraHeavyweightLabels
+*UIConstraints :*MediaType ExtraHeavyweightLabels *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType Preprinted
+*UIConstraints :*MediaType Preprinted *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType Bond
+*UIConstraints :*MediaType Bond *PageSize Env10
+
+*UIConstraints :*PageSize Env10 *MediaType Custom1
+*UIConstraints :*MediaType Custom1 *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType Custom2
+*UIConstraints :*MediaType Custom2 *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType Custom3
+*UIConstraints :*MediaType Custom3 *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType Custom4
+*UIConstraints :*MediaType Custom4 *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType Custom5
+*UIConstraints :*MediaType Custom5 *PageSize Env10
+*UIConstraints :*PageSize Env10 *MediaType Other
+*UIConstraints :*MediaType Other *PageSize Env10
+
+*UIConstraints :*PageSize EnvMonarch *MediaType PrinterDefault
+*UIConstraints :*MediaType PrinterDefault *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType Plain
+*UIConstraints :*MediaType Plain *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType PlainReload
+*UIConstraints :*MediaType PlainReload *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType Punched  
+*UIConstraints :*MediaType Punched  *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType Recycled
+*UIConstraints :*MediaType Recycled *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType Letterhead
+*UIConstraints :*MediaType Letterhead *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType LightweightCardstock
+*UIConstraints :*MediaType LightweightCardstock *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType LightweightCardstockReloaded
+*UIConstraints :*MediaType LightweightCardstockReloaded *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType LightweightGlossyCardstock
+*UIConstraints :*MediaType LightweightGlossyCardstock *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType LightweightGlossyCardstockReloaded
+*UIConstraints :*MediaType LightweightGlossyCardstockReloaded *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType GlossyCardstock
+*UIConstraints :*MediaType GlossyCardstock *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType GlossyCardstockReloaded
+*UIConstraints :*MediaType GlossyCardstockReloaded *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType HeavyweightGlossyCardstock
+*UIConstraints :*MediaType HeavyweightGlossyCardstock *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType HeavyweightGlossyCardstockReloaded
+*UIConstraints :*MediaType HeavyweightGlossyCardstockReloaded *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType HeavyweightCardstock
+*UIConstraints :*MediaType HeavyweightCardstock *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType HeavyweightCardstockReloaded
+*UIConstraints :*MediaType HeavyweightCardstockReloaded *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType ThinCardStock
+*UIConstraints :*MediaType ThinCardStock *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType CardstockReloaded
+*UIConstraints :*MediaType CardstockReloaded *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType Labels
+*UIConstraints :*MediaType Labels *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType HeavyweightLabels
+*UIConstraints :*MediaType HeavyweightLabels *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType ExtraHeavyweightLabels
+*UIConstraints :*MediaType ExtraHeavyweightLabels *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType Preprinted
+*UIConstraints :*MediaType Preprinted *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType Bond
+*UIConstraints :*MediaType Bond *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType Custom1
+*UIConstraints :*MediaType Custom1 *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType Custom2
+*UIConstraints :*MediaType Custom2 *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType Custom3
+*UIConstraints :*MediaType Custom3 *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType Custom4
+*UIConstraints :*MediaType Custom4 *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType Custom5
+*UIConstraints :*MediaType Custom5 *PageSize EnvMonarch
+*UIConstraints :*PageSize EnvMonarch *MediaType Other
+*UIConstraints :*MediaType Other *PageSize EnvMonarch
+
+
+*UIConstraints :*PageSize EnvDL *MediaType PrinterDefault
+*UIConstraints :*MediaType PrinterDefault *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType Plain
+*UIConstraints :*MediaType Plain *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType PlainReload
+*UIConstraints :*MediaType PlainReload *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType Punched  
+*UIConstraints :*MediaType Punched  *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType Recycled
+*UIConstraints :*MediaType Recycled *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType Letterhead
+*UIConstraints :*MediaType Letterhead *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType LightweightCardstock
+*UIConstraints :*MediaType LightweightCardstock *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType LightweightCardstockReloaded
+*UIConstraints :*MediaType LightweightCardstockReloaded *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType LightweightGlossyCardstock
+*UIConstraints :*MediaType LightweightGlossyCardstock *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType LightweightGlossyCardstockReloaded
+*UIConstraints :*MediaType LightweightGlossyCardstockReloaded *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType GlossyCardstock
+*UIConstraints :*MediaType GlossyCardstock *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType GlossyCardstockReloaded
+*UIConstraints :*MediaType GlossyCardstockReloaded *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType HeavyweightGlossyCardstock
+*UIConstraints :*MediaType HeavyweightGlossyCardstock *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType HeavyweightGlossyCardstockReloaded
+*UIConstraints :*MediaType HeavyweightGlossyCardstockReloaded *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType HeavyweightCardstock
+*UIConstraints :*MediaType HeavyweightCardstock *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType HeavyweightCardstockReloaded
+*UIConstraints :*MediaType HeavyweightCardstockReloaded *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType ThinCardStock
+*UIConstraints :*MediaType ThinCardStock *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType CardstockReloaded
+*UIConstraints :*MediaType CardstockReloaded *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType Labels
+*UIConstraints :*MediaType Labels *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType HeavyweightLabels
+*UIConstraints :*MediaType HeavyweightLabels *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType ExtraHeavyweightLabels
+*UIConstraints :*MediaType ExtraHeavyweightLabels *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType Preprinted
+*UIConstraints :*MediaType Preprinted *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType Bond
+*UIConstraints :*MediaType Bond *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType Custom1
+*UIConstraints :*MediaType Custom1 *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType Custom2
+*UIConstraints :*MediaType Custom2 *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType Custom3
+*UIConstraints :*MediaType Custom3 *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType Custom4
+*UIConstraints :*MediaType Custom4 *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType Custom5
+*UIConstraints :*MediaType Custom5 *PageSize EnvDL
+*UIConstraints :*PageSize EnvDL *MediaType Other
+*UIConstraints :*MediaType Other *PageSize EnvDL
+
+*UIConstraints :*PageSize EnvC5 *MediaType PrinterDefault
+*UIConstraints :*MediaType PrinterDefault *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType Plain
+*UIConstraints :*MediaType Plain *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType PlainReload
+*UIConstraints :*MediaType PlainReload *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType Punched  
+*UIConstraints :*MediaType Punched  *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType Recycled
+*UIConstraints :*MediaType Recycled *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType Letterhead
+*UIConstraints :*MediaType Letterhead *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType LightweightCardstock
+*UIConstraints :*MediaType LightweightCardstock *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType LightweightCardstockReloaded
+*UIConstraints :*MediaType LightweightCardstockReloaded *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType LightweightGlossyCardstock
+*UIConstraints :*MediaType LightweightGlossyCardstock *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType LightweightGlossyCardstockReloaded
+*UIConstraints :*MediaType LightweightGlossyCardstockReloaded *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType GlossyCardstock
+*UIConstraints :*MediaType GlossyCardstock *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType GlossyCardstockReloaded
+*UIConstraints :*MediaType GlossyCardstockReloaded *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType HeavyweightGlossyCardstock
+*UIConstraints :*MediaType HeavyweightGlossyCardstock *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType HeavyweightGlossyCardstockReloaded
+*UIConstraints :*MediaType HeavyweightGlossyCardstockReloaded *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType HeavyweightCardstock
+*UIConstraints :*MediaType HeavyweightCardstock *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType HeavyweightCardstockReloaded
+*UIConstraints :*MediaType HeavyweightCardstockReloaded *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType ThinCardStock
+*UIConstraints :*MediaType ThinCardStock *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType CardstockReloaded
+*UIConstraints :*MediaType CardstockReloaded *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType Labels
+*UIConstraints :*MediaType Labels *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType HeavyweightLabels
+*UIConstraints :*MediaType HeavyweightLabels *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType ExtraHeavyweightLabels
+*UIConstraints :*MediaType ExtraHeavyweightLabels *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType Preprinted
+*UIConstraints :*MediaType Preprinted *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType Bond
+*UIConstraints :*MediaType Bond *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType Custom1
+*UIConstraints :*MediaType Custom1 *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType Custom2
+*UIConstraints :*MediaType Custom2 *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType Custom3
+*UIConstraints :*MediaType Custom3 *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType Custom4
+*UIConstraints :*MediaType Custom4 *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType Custom5
+*UIConstraints :*MediaType Custom5 *PageSize EnvC5
+*UIConstraints :*PageSize EnvC5 *MediaType Other
+*UIConstraints :*MediaType Other *PageSize EnvC5
+
+*UIConstraints :*PageSize EnvC4 *MediaType PrinterDefault
+*UIConstraints :*MediaType PrinterDefault *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType Plain
+*UIConstraints :*MediaType Plain *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType PlainReload
+*UIConstraints :*MediaType PlainReload *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType Punched  
+*UIConstraints :*MediaType Punched  *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType Recycled
+*UIConstraints :*MediaType Recycled *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType Letterhead
+*UIConstraints :*MediaType Letterhead *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType LightweightCardstock
+*UIConstraints :*MediaType LightweightCardstock *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType LightweightCardstockReloaded
+*UIConstraints :*MediaType LightweightCardstockReloaded *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType LightweightGlossyCardstock
+*UIConstraints :*MediaType LightweightGlossyCardstock *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType LightweightGlossyCardstockReloaded
+*UIConstraints :*MediaType LightweightGlossyCardstockReloaded *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType GlossyCardstock
+*UIConstraints :*MediaType GlossyCardstock *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType GlossyCardstockReloaded
+*UIConstraints :*MediaType GlossyCardstockReloaded *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType HeavyweightGlossyCardstock
+*UIConstraints :*MediaType HeavyweightGlossyCardstock *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType HeavyweightGlossyCardstockReloaded
+*UIConstraints :*MediaType HeavyweightGlossyCardstockReloaded *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType HeavyweightCardstock
+*UIConstraints :*MediaType HeavyweightCardstock *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType HeavyweightCardstockReloaded
+*UIConstraints :*MediaType HeavyweightCardstockReloaded *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType ThinCardStock
+*UIConstraints :*MediaType ThinCardStock *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType CardstockReloaded
+*UIConstraints :*MediaType CardstockReloaded *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType Labels
+*UIConstraints :*MediaType Labels *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType HeavyweightLabels
+*UIConstraints :*MediaType HeavyweightLabels *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType ExtraHeavyweightLabels
+*UIConstraints :*MediaType ExtraHeavyweightLabels *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType Preprinted
+*UIConstraints :*MediaType Preprinted *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType Bond
+*UIConstraints :*MediaType Bond *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType Custom1
+*UIConstraints :*MediaType Custom1 *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType Custom2
+*UIConstraints :*MediaType Custom2 *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType Custom3
+*UIConstraints :*MediaType Custom3 *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType Custom4
+*UIConstraints :*MediaType Custom4 *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType Custom5
+*UIConstraints :*MediaType Custom5 *PageSize EnvC4
+*UIConstraints :*PageSize EnvC4 *MediaType Other
+*UIConstraints :*MediaType Other *PageSize EnvC4
+
+*% ======Media type v/s  Tray Constraints ==========
+*UIConstraints: *MediaType HeavyweightGlossyCardstock *InputSlot  Tray5
+*UIConstraints: *MediaType HeavyweightGlossyCardstockReloaded *InputSlot  Tray5
+*UIConstraints: *MediaType HeavyweightCardstock *InputSlot  Tray5
+*UIConstraints: *MediaType HeavyweightCardstockReloaded *InputSlot  Tray5
+*UIConstraints: *MediaType ExtraHeavyweightLabels *InputSlot  Tray5
+
+*UIConstraints: *MediaType Envelope *InputSlot  Tray1
+*UIConstraints: *MediaType Envelope *InputSlot  Tray2
+*UIConstraints: *MediaType Envelope *InputSlot  Tray3
+*UIConstraints: *MediaType Envelope *InputSlot  Tray4
+
+
+*% ======Media Type and Stapling Constraints ======= 
+
+*UIConstraints: *MediaType Labels *StapleLocation SinglePortrait    
+*UIConstraints: *MediaType HeavyweightLabels *StapleLocation SinglePortrait
+*UIConstraints: *MediaType ExtraHeavyweightLabels *StapleLocation SinglePortrait     
+*UIConstraints: *MediaType Envelope *StapleLocation SinglePortrait  
+
+
+ 
+*UIConstraints: *MediaType Labels *StapleLocation SingleLandscape    
+*UIConstraints: *MediaType HeavyweightLabels *StapleLocation SingleLandscape
+*UIConstraints: *MediaType ExtraHeavyweightLabels *StapleLocation SingleLandscape     
+*UIConstraints: *MediaType Envelope *StapleLocation SingleLandscape  
+
+
+ 
+*UIConstraints: *MediaType Labels *StapleLocation DualLandscape    
+*UIConstraints: *MediaType HeavyweightLabels *StapleLocation DualLandscape
+*UIConstraints: *MediaType ExtraHeavyweightLabels *StapleLocation DualLandscape     
+*UIConstraints: *MediaType Envelope *StapleLocation DualLandscape  
+
+
+*UIConstraints: *MediaType Labels *StapleLocation DualPortrait    
+*UIConstraints: *MediaType HeavyweightLabels *StapleLocation DualPortrait
+*UIConstraints: *MediaType ExtraHeavyweightLabels *StapleLocation DualPortrait     
+*UIConstraints: *MediaType Envelope *StapleLocation DualPortrait  
+
+*% ======Media Type and Hole Punch Constraints ======= 
+
+*UIConstraints : *MediaType Punched *XRPunchOption
+*UIConstraints : *MediaType HeavyweightGlossyCardstock *XRPunchOption
+*UIConstraints : *MediaType HeavyweightGlossyCardstockReloaded *XRPunchOption
+*UIConstraints : *MediaType HeavyweightCardstock *XRPunchOption
+*UIConstraints : *MediaType HeavyweightCardstockReloaded *XRPunchOption
+*UIConstraints : *MediaType Labels *XRPunchOption
+*UIConstraints : *MediaType Envelope *XRPunchOption
+*UIConstraints : *MediaType HeavyweightLabels *XRPunchOption
+*UIConstraints : *MediaType ExtraHeavyweightLabels *XRPunchOption
+
+
+*% ======Media Type and Folding Constraints ======= 
+
+*UIConstraints: *XRFoldOption BiFold *MediaType PlainReload 
+*UIConstraints: *XRFoldOption BiFold *MediaType Punched               
+*UIConstraints: *XRFoldOption BiFold *MediaType LightweightCardstock 
+*UIConstraints: *XRFoldOption BiFold *MediaType LightweightCardstockReloaded            
+*UIConstraints: *XRFoldOption BiFold *MediaType LightweightGlossyCardstock             
+*UIConstraints: *XRFoldOption BiFold *MediaType LightweightGlossyCardstockReloaded   
+*UIConstraints: *XRFoldOption BiFold *MediaType GlossyCardstock
+*UIConstraints: *XRFoldOption BiFold *MediaType GlossyCardstockReloaded
+*UIConstraints: *XRFoldOption BiFold *MediaType HeavyweightGlossyCardstock               
+*UIConstraints: *XRFoldOption BiFold *MediaType HeavyweightGlossyCardstockReloaded 
+*UIConstraints: *XRFoldOption BiFold *MediaType HeavyweightCardstock               
+*UIConstraints: *XRFoldOption BiFold *MediaType HeavyweightCardstockReloaded 
+*UIConstraints: *XRFoldOption BiFold *MediaType ThinCardStock               
+*UIConstraints: *XRFoldOption BiFold *MediaType CardstockReloaded 
+*UIConstraints: *XRFoldOption BiFold *MediaType Labels               
+*UIConstraints: *XRFoldOption BiFold *MediaType HeavyweightLabels 
+*UIConstraints: *XRFoldOption BiFold *MediaType ExtraHeavyweightLabels               
+*UIConstraints: *XRFoldOption BiFold *MediaType Envelope 
+
+
+*UIConstraints: *XRFoldOption BiFoldAndStaple  *MediaType PlainReload
+*UIConstraints: *XRFoldOption BiFoldAndStaple *MediaType Punched  
+*UIConstraints: *XRFoldOption BiFoldAndStaple  *MediaType LightweightCardstock             
+*UIConstraints: *XRFoldOption BiFoldAndStaple *MediaType LightweightCardstockReloaded            
+*UIConstraints: *XRFoldOption BiFoldAndStaple *MediaType LightweightGlossyCardstock             
+*UIConstraints: *XRFoldOption BiFoldAndStaple *MediaType LightweightGlossyCardstockReloaded   
+*UIConstraints: *XRFoldOption BiFoldAndStaple *MediaType GlossyCardstock
+*UIConstraints: *XRFoldOption BiFoldAndStaple *MediaType GlossyCardstockReloaded
+*UIConstraints: *XRFoldOption BiFoldAndStaple *MediaType HeavyweightGlossyCardstock               
+*UIConstraints: *XRFoldOption BiFoldAndStaple *MediaType HeavyweightGlossyCardstockReloaded
+*UIConstraints: *XRFoldOption BiFoldAndStaple  *MediaType HeavyweightCardstock              
+*UIConstraints: *XRFoldOption BiFoldAndStaple *MediaType HeavyweightCardstockReloaded 
+*UIConstraints: *XRFoldOption BiFoldAndStaple  *MediaType ThinCardStock             
+*UIConstraints: *XRFoldOption BiFoldAndStaple *MediaType CardstockReloaded 
+*UIConstraints: *XRFoldOption BiFoldAndStaple *MediaType Labels               
+*UIConstraints: *XRFoldOption BiFoldAndStaple *MediaType HeavyweightLabels 
+*UIConstraints: *XRFoldOption BiFoldAndStaple *MediaType ExtraHeavyweightLabels               
+*UIConstraints: *XRFoldOption BiFoldAndStaple *MediaType Envelope  
+
+*%====== Media size and  other constraints
+
+
+*% ====== Media size v/s Tray Constraints =======
+*UIConstraints: *InputSlot Tray1 *PageSize 11x15
+*UIConstraints: *InputSlot Tray1 *PageSize 215x315mm
+*UIConstraints: *InputSlot Tray1 *PageSize 8x10
+*UIConstraints: *InputSlot Tray1 *PageSize Postcard4x6
+*UIConstraints: *InputSlot Tray1 *PageSize 5x7
+*UIConstraints: *InputSlot Tray1 *PageSize A4Oversized
+*UIConstraints: *InputSlot Tray1 *PageSize 9x11
+*UIConstraints: *InputSlot Tray1 *PageSize A6
+*UIConstraints: *InputSlot Tray1 *PageSize EnvMonarch
+*UIConstraints: *InputSlot Tray1 *PageSize EnvDL
+*UIConstraints: *InputSlot Tray1 *PageSize Env10
+*UIConstraints: *InputSlot Tray1 *PageSize EnvC4
+*UIConstraints: *InputSlot Tray1 *PageSize EnvC5
+
+*UIConstraints: *InputSlot Tray2 *PageSize 11x15
+*UIConstraints: *InputSlot Tray2 *PageSize 215x315mm
+*UIConstraints: *InputSlot Tray2 *PageSize 8x10
+*UIConstraints: *InputSlot Tray2 *PageSize Postcard4x6
+*UIConstraints: *InputSlot Tray2 *PageSize 5x7
+*UIConstraints: *InputSlot Tray2 *PageSize A4Oversized
+*UIConstraints: *InputSlot Tray2 *PageSize 9x11
+*UIConstraints: *InputSlot Tray2 *PageSize A6
+*UIConstraints: *InputSlot Tray2 *PageSize EnvMonarch
+*UIConstraints: *InputSlot Tray2 *PageSize EnvDL
+*UIConstraints: *InputSlot Tray2 *PageSize Env10
+*UIConstraints: *InputSlot Tray2 *PageSize EnvC4
+*UIConstraints: *InputSlot Tray2 *PageSize EnvC5
+
+*UIConstraints: *InputSlot Tray3 *PageSize 11x15
+*UIConstraints: *InputSlot Tray3 *PageSize 215x315mm
+*UIConstraints: *InputSlot Tray3 *PageSize 8x10
+*UIConstraints: *InputSlot Tray3 *PageSize Postcard4x6
+*UIConstraints: *InputSlot Tray3 *PageSize 5x7
+*UIConstraints: *InputSlot Tray3 *PageSize A4Oversized
+*UIConstraints: *InputSlot Tray3 *PageSize 9x11
+*UIConstraints: *InputSlot Tray3 *PageSize A6
+*UIConstraints: *InputSlot Tray3 *PageSize EnvMonarch
+*UIConstraints: *InputSlot Tray3 *PageSize EnvDL
+*UIConstraints: *InputSlot Tray3 *PageSize Env10
+*UIConstraints: *InputSlot Tray3 *PageSize EnvC4
+*UIConstraints: *InputSlot Tray3 *PageSize EnvC5
+
+*UIConstraints: *InputSlot Tray4 *PageSize 11x15
+*UIConstraints: *InputSlot Tray4 *PageSize 215x315mm
+*UIConstraints: *InputSlot Tray4 *PageSize 8x10
+*UIConstraints: *InputSlot Tray4 *PageSize Postcard4x6
+*UIConstraints: *InputSlot Tray4 *PageSize 5x7
+*UIConstraints: *InputSlot Tray4 *PageSize A4Oversized
+*UIConstraints: *InputSlot Tray4 *PageSize 9x11
+*UIConstraints: *InputSlot Tray4 *PageSize A6
+*UIConstraints: *InputSlot Tray4 *PageSize EnvMonarch
+*UIConstraints: *InputSlot Tray4 *PageSize EnvDL
+*UIConstraints: *InputSlot Tray4 *PageSize Env10
+*UIConstraints: *InputSlot Tray4 *PageSize EnvC4
+*UIConstraints: *InputSlot Tray4 *PageSize EnvC5
+
+
+*% ====== Media size v/s Hole Punch Constraints =======
+*UIConstraints: *PageSize Legal  *XRPunchOption 3Punch
+*UIConstraints: *PageSize FanFoldGermanLegal  *XRPunchOption 3Punch
+*UIConstraints: *PageSize 215x315mm  *XRPunchOption 3Punch
+*UIConstraints: *PageSize Legal  *XRPunchOption 3PunchLandscape
+*UIConstraints: *PageSize FanFoldGermanLegal  *XRPunchOption 3PunchLandscape
+*UIConstraints: *PageSize 215x315mm  *XRPunchOption 3PunchLandscape
+*UIConstraints: *PageSize Legal  *XRPunchOption 4Punch
+*UIConstraints: *PageSize FanFoldGermanLegal  *XRPunchOption 4Punch
+*UIConstraints: *PageSize 215x315mm  *XRPunchOption 4Punch
+*UIConstraints: *PageSize Legal  *XRPunchOption 4HolePunchLandscape
+*UIConstraints: *PageSize FanFoldGermanLegal  *XRPunchOption 4HolePunchLandscape
+*UIConstraints: *PageSize 215x315mm  *XRPunchOption 4HolePunchLandscape
+
+*UIConstraints: *PageSize 8x10  *XRPunchOption 4Punch
+*UIConstraints: *PageSize B4  *XRPunchOption 4Punch
+*UIConstraints: *PageSize B5  *XRPunchOption 4Punch
+*UIConstraints: *PageSize 8x10  *XRPunchOption 4HolePunchLandscape
+*UIConstraints: *PageSize B4  *XRPunchOption 4HolePunchLandscape
+*UIConstraints: *PageSize B5 *XRPunchOption 4HolePunchLandscape
+
+
+
+*UIConstraints: *PageSize Statement  *XRPunchOption 2HolePunchLandscape
+*UIConstraints: *PageSize Postcard4x6  *XRPunchOption 2HolePunchLandscape
+*UIConstraints: *PageSize 5x7  *XRPunchOption 2HolePunchLandscape
+*UIConstraints: *PageSize A6 *XRPunchOption 2HolePunchLandscape
+*UIConstraints: *PageSize EnvMonarch  *XRPunchOption 2HolePunchLandscape
+*UIConstraints: *PageSize EnvDL  *XRPunchOption 2HolePunchLandscape
+*UIConstraints: *PageSize Env10  *XRPunchOption 2HolePunchLandscape
+*UIConstraints: *PageSize EnvC5  *XRPunchOption 2HolePunchLandscape
+*UIConstraints: *PageSize EnvC4  *XRPunchOption 2HolePunchLandscape
+
+*UIConstraints: *PageSize Statement  *XRPunchOption 2Punch
+*UIConstraints: *PageSize Postcard4x6  *XRPunchOption 2Punch
+*UIConstraints: *PageSize 5x7  *XRPunchOption 2Punch
+*UIConstraints: *PageSize A6 *XRPunchOption 2Punch
+*UIConstraints: *PageSize EnvMonarch  *XRPunchOption 2Punch
+*UIConstraints: *PageSize EnvDL  *XRPunchOption 2Punch
+*UIConstraints: *PageSize Env10  *XRPunchOption 2Punch
+*UIConstraints: *PageSize EnvC5  *XRPunchOption 2Punch
+*UIConstraints: *PageSize EnvC4  *XRPunchOption 2Punch
+
+*UIConstraints: *PageSize Statement  *XRPunchOption 3Punch
+*UIConstraints: *PageSize Postcard4x6  *XRPunchOption 3Punch
+*UIConstraints: *PageSize 5x7  *XRPunchOption 3Punch
+*UIConstraints: *PageSize A5  *XRPunchOption 3Punch
+*UIConstraints: *PageSize A6 *XRPunchOption 3Punch
+*UIConstraints: *PageSize EnvMonarch  *XRPunchOption 3Punch
+*UIConstraints: *PageSize EnvDL  *XRPunchOption 3Punch
+*UIConstraints: *PageSize Env10  *XRPunchOption 3Punch
+*UIConstraints: *PageSize EnvC5  *XRPunchOption 3Punch
+*UIConstraints: *PageSize EnvC4  *XRPunchOption 3Punch
+
+*UIConstraints: *PageSize Statement  *XRPunchOption 3PunchLandscape
+*UIConstraints: *PageSize Postcard4x6  *XRPunchOption 3PunchLandscape
+*UIConstraints: *PageSize 5x7  *XRPunchOption 3PunchLandscape
+*UIConstraints: *PageSize A5  *XRPunchOption 3PunchLandscape
+*UIConstraints: *PageSize A6 *XRPunchOption 3PunchLandscape
+*UIConstraints: *PageSize EnvMonarch  *XRPunchOption 3PunchLandscape
+*UIConstraints: *PageSize EnvDL  *XRPunchOption 3PunchLandscape
+*UIConstraints: *PageSize Env10  *XRPunchOption 3PunchLandscape
+*UIConstraints: *PageSize EnvC5  *XRPunchOption 3PunchLandscape
+*UIConstraints: *PageSize EnvC4  *XRPunchOption 3PunchLandscape
+
+*UIConstraints: *PageSize Statement  *XRPunchOption 4Punch
+*UIConstraints: *PageSize Postcard4x6  *XRPunchOption 4Punch
+*UIConstraints: *PageSize 5x7  *XRPunchOption 4Punch
+*UIConstraints: *PageSize A5  *XRPunchOption 4Punch
+*UIConstraints: *PageSize A6 *XRPunchOption 4Punch
+*UIConstraints: *PageSize EnvMonarch  *XRPunchOption 4Punch
+*UIConstraints: *PageSize EnvDL  *XRPunchOption 4Punch
+*UIConstraints: *PageSize Env10  *XRPunchOption 4Punch
+*UIConstraints: *PageSize EnvC5  *XRPunchOption 4Punch
+*UIConstraints: *PageSize EnvC4  *XRPunchOption 4Punch
+
+*UIConstraints: *PageSize Statement  *XRPunchOption 4HolePunchLandscape
+*UIConstraints: *PageSize Postcard4x6  *XRPunchOption 4HolePunchLandscape
+*UIConstraints: *PageSize 5x7  *XRPunchOption 4HolePunchLandscape
+*UIConstraints: *PageSize A5  *XRPunchOption 4HolePunchLandscape
+*UIConstraints: *PageSize A6 *XRPunchOption 4HolePunchLandscape
+*UIConstraints: *PageSize EnvMonarch  *XRPunchOption 4HolePunchLandscape
+*UIConstraints: *PageSize EnvDL  *XRPunchOption 4HolePunchLandscape
+*UIConstraints: *PageSize Env10  *XRPunchOption 4HolePunchLandscape
+*UIConstraints: *PageSize EnvC5  *XRPunchOption 4HolePunchLandscape
+*UIConstraints: *PageSize EnvC4  *XRPunchOption 4HolePunchLandscape
+
+
+*% ====== Media size v/s Stapling Constraints =======
+
+*UIConstraints: *PageSize Statement  *StapleLocation SinglePortrait
+*UIConstraints: *PageSize Postcard4x6  *StapleLocation SinglePortrait
+*UIConstraints: *PageSize 5x7  *StapleLocation SinglePortrait
+*UIConstraints: *PageSize A6  *StapleLocation SinglePortrait
+*UIConstraints: *PageSize EnvMonarch  *StapleLocation SinglePortrait
+*UIConstraints: *PageSize EnvDL  *StapleLocation SinglePortrait
+*UIConstraints: *PageSize Env10  *StapleLocation SinglePortrait
+*UIConstraints: *PageSize EnvC5  *StapleLocation SinglePortrait
+*UIConstraints: *PageSize EnvC4  *StapleLocation SinglePortrait
+
+
+
+*UIConstraints: *PageSize Statement  *StapleLocation SingleLandscape
+*UIConstraints: *PageSize Postcard4x6  *StapleLocation SingleLandscape
+*UIConstraints: *PageSize 5x7  *StapleLocation SingleLandscape
+*UIConstraints: *PageSize A6  *StapleLocation SingleLandscape
+*UIConstraints: *PageSize EnvMonarch  *StapleLocation SingleLandscape
+*UIConstraints: *PageSize EnvDL  *StapleLocation SingleLandscape
+*UIConstraints: *PageSize Env10  *StapleLocation SingleLandscape
+*UIConstraints: *PageSize EnvC5  *StapleLocation SingleLandscape
+*UIConstraints: *PageSize EnvC4  *StapleLocation SingleLandscape
+
+
+
+*UIConstraints: *PageSize Statement  *StapleLocation DualPortrait
+*UIConstraints: *PageSize Postcard4x6  *StapleLocation DualPortrait
+*UIConstraints: *PageSize 5x7  *StapleLocation DualPortrait
+*UIConstraints: *PageSize A6  *StapleLocation DualPortrait
+*UIConstraints: *PageSize EnvMonarch  *StapleLocation DualPortrait
+*UIConstraints: *PageSize EnvDL  *StapleLocation DualPortrait
+*UIConstraints: *PageSize Env10  *StapleLocation DualPortrait
+*UIConstraints: *PageSize EnvC5  *StapleLocation DualPortrait
+*UIConstraints: *PageSize EnvC4  *StapleLocation DualPortrait
+
+
+*UIConstraints: *PageSize Statement  *StapleLocation DualLandscape
+*UIConstraints: *PageSize Postcard4x6  *StapleLocation DualLandscape
+*UIConstraints: *PageSize 5x7  *StapleLocation DualLandscape
+*UIConstraints: *PageSize A6  *StapleLocation DualLandscape
+*UIConstraints: *PageSize EnvMonarch  *StapleLocation DualLandscape
+*UIConstraints: *PageSize EnvDL  *StapleLocation DualLandscape
+*UIConstraints: *PageSize Env10  *StapleLocation DualLandscape
+*UIConstraints: *PageSize EnvC5  *StapleLocation DualLandscape
+*UIConstraints: *PageSize EnvC4  *StapleLocation DualLandscape
+
+*% ====== Media size v/s BiFold	 Constraints =======
+
+*UIConstraints: *PageSize Statement  *XRFoldOption BiFold
+*UIConstraints: *PageSize Executive  *XRFoldOption BiFold
+*UIConstraints: *PageSize 8x10 *XRFoldOption BiFold
+*UIConstraints: *PageSize Postcard4x6  *XRFoldOption BiFold
+*UIConstraints: *PageSize 5x7   *XRFoldOption BiFold
+*UIConstraints: *PageSize A4Oversized  *XRFoldOption BiFold
+*UIConstraints: *PageSize 9x11  *XRFoldOption BiFold
+*UIConstraints: *PageSize A5  *XRFoldOption BiFold
+*UIConstraints: *PageSize A6  *XRFoldOption BiFold
+*UIConstraints: *PageSize B5  *XRFoldOption BiFold
+*UIConstraints: *PageSize EnvMonarch  *XRFoldOption BiFold
+*UIConstraints: *PageSize EnvDL  *XRFoldOption BiFold
+*UIConstraints: *PageSize Env10  *XRFoldOption BiFold
+*UIConstraints: *PageSize EnvC5  *XRFoldOption BiFold
+*UIConstraints: *PageSize EnvC4  *XRFoldOption BiFold
+
+*% ====== Media size v/s BiFold	and Stapling Constraints =======
+
+*UIConstraints: *PageSize Statement  *XRFoldOption BiFoldAndStaple
+*UIConstraints: *PageSize Executive  *XRFoldOption BiFoldAndStaple
+*UIConstraints: *PageSize 8x10 *XRFoldOption BiFoldAndStaple
+*UIConstraints: *PageSize Postcard4x6  *XRFoldOption BiFoldAndStaple
+*UIConstraints: *PageSize 5x7   *XRFoldOption BiFoldAndStaple
+*UIConstraints: *PageSize A4Oversized  *XRFoldOption BiFoldAndStaple
+*UIConstraints: *PageSize 9x11  *XRFoldOption BiFoldAndStaple
+*UIConstraints: *PageSize A5  *XRFoldOption BiFoldAndStaple
+*UIConstraints: *PageSize A6  *XRFoldOption BiFoldAndStaple
+*UIConstraints: *PageSize B5  *XRFoldOption BiFoldAndStaple
+*UIConstraints: *PageSize EnvMonarch  *XRFoldOption BiFoldAndStaple
+*UIConstraints: *PageSize EnvDL  *XRFoldOption BiFoldAndStaple
+*UIConstraints: *PageSize Env10  *XRFoldOption BiFoldAndStaple
+*UIConstraints: *PageSize EnvC5  *XRFoldOption BiFoldAndStaple
+*UIConstraints: *PageSize EnvC4  *XRFoldOption BiFoldAndStaple
+
+
+*% ====== Media size v/s Duplex Constraints ===========
+*UIConstraints: *Duplex *PageSize Postcard4x6
+*UIConstraints: *Duplex *PageSize 5x7 
+*UIConstraints: *Duplex *PageSize A6
+*UIConstraints: *Duplex *PageSize EnvMonarch
+*UIConstraints: *Duplex *PageSize EnvDL
+*UIConstraints: *Duplex *PageSize Env10
+*UIConstraints: *Duplex *PageSize EnvC5
+*UIConstraints: *Duplex *PageSize EnvC4
+
+*%  Booklet Finishing v/s Stapling
+*UIConstraints : *StapleLocation SinglePortrait *XRFoldOption BiFold
+*UIConstraints : *XRFoldOption BiFold *StapleLocation SinglePortrait 
+*UIConstraints : *StapleLocation SinglePortrait *XRFoldOption BiFoldAndStaple
+*UIConstraints : *XRFoldOption BiFoldAndStaple *StapleLocation SinglePortrait 
+
+*UIConstraints : *StapleLocation SingleLandscape *XRFoldOption BiFold
+*UIConstraints : *XRFoldOption BiFold *StapleLocation SingleLandscape 
+*UIConstraints : *StapleLocation SingleLandscape *XRFoldOption BiFoldAndStaple
+*UIConstraints : *XRFoldOption BiFoldAndStaple *StapleLocation SingleLandscape 
+
+
+*UIConstraints : *StapleLocation DualPortrait *XRFoldOption BiFold
+*UIConstraints : *XRFoldOption BiFold *StapleLocation DualPortrait 
+*UIConstraints : *StapleLocation DualPortrait *XRFoldOption BiFoldAndStaple
+*UIConstraints : *XRFoldOption BiFoldAndStaple *StapleLocation DualPortrait 
+
+*UIConstraints : *StapleLocation DualLandscape *XRFoldOption BiFold
+*UIConstraints : *XRFoldOption BiFold *StapleLocation DualLandscape 
+*UIConstraints : *StapleLocation DualLandscape *XRFoldOption BiFoldAndStaple
+*UIConstraints : *XRFoldOption BiFoldAndStaple *StapleLocation DualLandscape 
+
+*%  Booklet Finishing v/s Punch
+*UIConstraints : *XRPunchOption 2Punch *XRFoldOption BiFold
+*UIConstraints : *XRFoldOption BiFold *XRPunchOption 2Punch
+*UIConstraints : *XRPunchOption 2Punch *XRFoldOption BiFoldAndStaple
+*UIConstraints : *XRFoldOption BiFoldAndStaple *XRPunchOption 2Punch
+
+*UIConstraints : *XRPunchOption 2HolePunchLandscape *XRFoldOption BiFold
+*UIConstraints : *XRFoldOption BiFold *XRPunchOption 2HolePunchLandscape
+*UIConstraints : *XRPunchOption 2HolePunchLandscape *XRFoldOption BiFoldAndStaple
+*UIConstraints : *XRFoldOption BiFoldAndStaple *XRPunchOption 2HolePunchLandscape
+
+*UIConstraints : *XRPunchOption 3Punch *XRFoldOption BiFold
+*UIConstraints : *XRFoldOption BiFold *XRPunchOption 3Punch 
+*UIConstraints : *XRPunchOption 3Punch *XRFoldOption BiFoldAndStaple
+*UIConstraints : *XRFoldOption BiFoldAndStaple *XRPunchOption 3Punch 
+
+*UIConstraints : *XRPunchOption 3PunchLandscape *XRFoldOption BiFold
+*UIConstraints : *XRFoldOption BiFold *XRPunchOption 3PunchLandscape
+*UIConstraints : *XRPunchOption 3PunchLandscape *XRFoldOption BiFoldAndStaple
+*UIConstraints : *XRFoldOption BiFoldAndStaple *XRPunchOption 3PunchLandscape
+
+*UIConstraints : *XRPunchOption 4Punch *XRFoldOption BiFold
+*UIConstraints : *XRFoldOption BiFold *XRPunchOption 4Punch 
+*UIConstraints : *XRPunchOption 4Punch *XRFoldOption BiFoldAndStaple
+*UIConstraints : *XRFoldOption BiFoldAndStaple *XRPunchOption 4Punch 
+
+*UIConstraints : *XRPunchOption 4HolePunchLandscape *XRFoldOption BiFold
+*UIConstraints : *XRFoldOption BiFold *XRPunchOption 4HolePunchLandscape
+*UIConstraints : *XRPunchOption 4HolePunchLandscape *XRFoldOption BiFoldAndStaple
+*UIConstraints : *XRFoldOption BiFoldAndStaple *XRPunchOption 4HolePunchLandscape
+
+*%  Booklet Finishing v/s Stapling
+*UIConstraints : *StapleLocation SinglePortrait *XRFoldOption BiFold
+*UIConstraints : *XRFoldOption BiFold *StapleLocation SinglePortrait 
+*UIConstraints : *StapleLocation SinglePortrait *XRFoldOption BiFoldAndStaple
+*UIConstraints : *XRFoldOption BiFoldAndStaple *StapleLocation SinglePortrait 
+
+*UIConstraints : *StapleLocation SingleLandscape *XRFoldOption BiFold
+*UIConstraints : *XRFoldOption BiFold *StapleLocation SingleLandscape 
+*UIConstraints : *StapleLocation SingleLandscape *XRFoldOption BiFoldAndStaple
+*UIConstraints : *XRFoldOption BiFoldAndStaple *StapleLocation SingleLandscape 
+
+
+*UIConstraints : *StapleLocation DualPortrait *XRFoldOption BiFold
+*UIConstraints : *XRFoldOption BiFold *StapleLocation DualPortrait 
+*UIConstraints : *StapleLocation DualPortrait *XRFoldOption BiFoldAndStaple
+*UIConstraints : *XRFoldOption BiFoldAndStaple *StapleLocation DualPortrait 
+
+*UIConstraints : *StapleLocation DualLandscape *XRFoldOption BiFold
+*UIConstraints : *XRFoldOption BiFold *StapleLocation DualLandscape 
+*UIConstraints : *StapleLocation DualLandscape *XRFoldOption BiFoldAndStaple
+*UIConstraints : *XRFoldOption BiFoldAndStaple *StapleLocation DualLandscape 
+
+*%  Booklet Finishing v/s Punch
+*UIConstraints : *XRPunchOption 2Punch *XRFoldOption BiFold
+*UIConstraints : *XRFoldOption BiFold *XRPunchOption 2Punch
+*UIConstraints : *XRPunchOption 2Punch *XRFoldOption BiFoldAndStaple
+*UIConstraints : *XRFoldOption BiFoldAndStaple *XRPunchOption 2Punch
+
+*UIConstraints : *XRPunchOption 2HolePunchLandscape *XRFoldOption BiFold
+*UIConstraints : *XRFoldOption BiFold *XRPunchOption 2HolePunchLandscape
+*UIConstraints : *XRPunchOption 2HolePunchLandscape *XRFoldOption BiFoldAndStaple
+*UIConstraints : *XRFoldOption BiFoldAndStaple *XRPunchOption 2HolePunchLandscape
+
+*UIConstraints : *XRPunchOption 3Punch *XRFoldOption BiFold
+*UIConstraints : *XRFoldOption BiFold *XRPunchOption 3Punch 
+*UIConstraints : *XRPunchOption 3Punch *XRFoldOption BiFoldAndStaple
+*UIConstraints : *XRFoldOption BiFoldAndStaple *XRPunchOption 3Punch 
+
+*UIConstraints : *XRPunchOption 3PunchLandscape *XRFoldOption BiFold
+*UIConstraints : *XRFoldOption BiFold *XRPunchOption 3PunchLandscape
+*UIConstraints : *XRPunchOption 3PunchLandscape *XRFoldOption BiFoldAndStaple
+*UIConstraints : *XRFoldOption BiFoldAndStaple *XRPunchOption 3PunchLandscape
+
+*UIConstraints : *XRPunchOption 4Punch *XRFoldOption BiFold
+*UIConstraints : *XRFoldOption BiFold *XRPunchOption 4Punch 
+*UIConstraints : *XRPunchOption 4Punch *XRFoldOption BiFoldAndStaple
+*UIConstraints : *XRFoldOption BiFoldAndStaple *XRPunchOption 4Punch 
+
+*UIConstraints : *XRPunchOption 4HolePunchLandscape *XRFoldOption BiFold
+*UIConstraints : *XRFoldOption BiFold *XRPunchOption 4HolePunchLandscape
+*UIConstraints : *XRPunchOption 4HolePunchLandscape *XRFoldOption BiFoldAndStaple
+*UIConstraints : *XRFoldOption BiFoldAndStaple *XRPunchOption 4HolePunchLandscape
+
+
+*%  Booklet Finishing v/s Duplex
+*UIConstraints :  *Duplex None *XRFoldOption
+
+
+
+*% =============== Device Capabilities ===============
+*LanguageLevel: "3"
+*Protocols: BCP PJL TBCP
+*1284Modes Parallel: Compat Nibble ECP
+*1284DeviceID: "MANUFACTURER:XEROX;COMMAND SET:;MODEL:VersaLink C7125 Color MFP;CLASS:PRINTER;COMPATIBLE ID:;DESCRIPTION:Xerox VersaLink C7125 Color MFP;"
+
+*FreeVM: "23247104"
+*VMOption 768Meg/768MB: "23247104"
+*VMOption 1024Meg/1024MB: "23247104"
+
+*ColorDevice: True
+*DefaultColorSpace: CMYK
+*VariablePaperSize: True
+*LandscapeOrientation: Plus90
+*TTRasterizer: Type42
+*FileSystem: True
+
+*Throughput: "25"
+*Password: "()"
+*ExitServer: "
+ count 0 eq
+ { false } { true exch startjob } ifelse
+ not {
+     (WARNING: Cannot modify initial VM.) =
+     (Missing or invalid password.) =
+     (Please contact the author of this software.) = flush quit
+     } if
+"
+*End
+*Reset: "
+ count 0 eq
+ { false } { true exch startjob } ifelse
+ not {
+    (WARNING: Cannot reset printer.) =
+    (Missing or invalid password.) =
+    (Please contact the author of this software.) = flush quit
+    } if
+ systemdict /quit get exec
+ (WARNING : Printer Reset Failed.) = flush
+"
+*End
+
+*SuggestedJobTimeout: "0"
+*SuggestedWaitTimeout: "300"
+*PrintPSErrors: True
+
+*% OutputMode Information ===================
+*DefaultResolution: 600dpi
+
+*AccurateScreensSupport: True
+
+*% Paper Handling ===================
+*% Code in this section both selects a tray and sets up a frame buffer.
+
+*LeadingEdge Long: ""
+*LeadingEdge PreferLong: ""
+*NonUIOrderDependency: 20 AnySetup *CustomPageSize
+
+*ParamCustomPageSize Width: 1 points 252 842
+*ParamCustomPageSize Height: 2 points 278 1369
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 1
+
+*HWMargins: 0 0 0 0
+*CustomPageSize True: "
+        pop pop pop
+        2 dict begin
+                2 array astore
+                /PageSize exch def
+                /ImagingBBox null def
+                currentdict
+        end
+        setpagedevice"
+*End
+*MaxMediaWidth: "842"
+*MaxMediaHeight: "1369"
+*DefaultLeadingEdge: Short
+*LeadingEdge Short: ""
+*%
+
+*OpenUI *PageSize: PickOne
+*OrderDependency: 30.0 AnySetup *PageSize
+*DefaultPageSize: Letter
+*PageSize Letter/Letter (8.5 x 11"): "2 dict dup /PageSize [612 792] put dup /ImagingBBox null put setpagedevice"
+*PageSize Legal/Legal (8.5 x 14"): "2 dict dup /PageSize [612 1008] put dup /ImagingBBox null put setpagedevice"
+*PageSize Tabloid/Tabloid (11 x 17"): "2 dict dup /PageSize [792 1224] put dup /ImagingBBox null put setpagedevice"
+*PageSize Postcard4x6/Postcard (4 x 6"): "2 dict dup /PageSize [288 432] put dup /ImagingBBox null put setpagedevice"
+*PageSize 5x7/5 x 7": "2 dict dup /PageSize [360 504] put dup /ImagingBBox null put setpagedevice"
+*PageSize Statement/Statement (5.5 x 8.5"): "2 dict dup /PageSize [396 612] put dup /ImagingBBox null put setpagedevice"
+*PageSize Executive/Executive (7.25 x 10.5"): "2 dict dup /PageSize [522 756] put dup /ImagingBBox null put setpagedevice"
+*PageSize 8x10/8 x 10": "2 dict dup /PageSize [576 720] put dup /ImagingBBox null put setpagedevice"
+*PageSize FanFoldGermanLegal/8.5 x 13": "2 dict dup /PageSize [612 936] put dup /ImagingBBox null put setpagedevice"
+*PageSize 9x11/9 x 11": "2 dict dup /PageSize [648 792] put dup /ImagingBBox null put setpagedevice"
+*PageSize 11x15/11 x 15": "2 dict dup /PageSize [792 1080] put dup /ImagingBBox null put setpagedevice"
+*PageSize A3/A3 (297 x 420 mm): "2 dict dup /PageSize [842 1191] put dup /ImagingBBox null put setpagedevice"
+*PageSize A4Oversized/A4 Oversized (223 x 297 mm): "2 dict dup /PageSize [632 842] put dup /ImagingBBox null put setpagedevice"
+*PageSize A4/A4 (210 x 297 mm): "2 dict dup /PageSize [595 842] put dup /ImagingBBox null put setpagedevice"
+*PageSize A5/A5 (148 x 210 mm): "2 dict dup /PageSize [420 595] put dup /ImagingBBox null put setpagedevice"
+*PageSize A6/A6 (105 x 148 mm): "2 dict dup /PageSize [297 420] put dup /ImagingBBox null put setpagedevice"
+*PageSize B4/JIS B4 (257 x 364 mm): "2 dict dup /PageSize [729 1032] put dup /ImagingBBox null put setpagedevice"
+*PageSize B5/JIS B5 (182 x 257 mm): "2 dict dup /PageSize [516 729] put dup /ImagingBBox null put setpagedevice"
+*PageSize 215x315mm/215 x 315 mm: "2 dict dup /PageSize [609 893] put dup /ImagingBBox null put setpagedevice"
+*PageSize EnvMonarch/Monarch Envelope (3.9 x 7.5"): "2 dict dup /PageSize [279 540] put dup /ImagingBBox null put setpagedevice"
+*PageSize EnvDL/DL Envelope (110 x 220 mm): "2 dict dup /PageSize [312 624] put dup /ImagingBBox null put setpagedevice"
+*PageSize Env10/No. 10 Envelope (4.1 x 9.5"): "2 dict dup /PageSize [297 684] put dup /ImagingBBox null put setpagedevice"
+*PageSize EnvC5/C5 Envelope (162 x 229 mm): "2 dict dup /PageSize [459 649] put dup /ImagingBBox null put setpagedevice"
+*PageSize EnvC4/C4 Envelope (229 x 324 mm): "2 dict dup /PageSize [649 918] put dup /ImagingBBox null put setpagedevice"
+*?PageSize: "
+ save
+   /LedgerX {1 index 1224.0 ne} bind def
+   /LedgerY {1 index 792.0 ne} bind def
+   currentpagedevice /PageSize get aload pop
+   2 copy LedgerX LedgerY and {gt {exch} if} {pop pop} ifelse
+   (Unknown)
+  45 dict
+   dup [612 792] (Letter) put
+   dup [612 1008] (Legal) put
+   dup [792 1224] (Tabloid) put
+   dup [792 1080] (11x15) put
+   dup [396 612] (Statement) put
+   dup [522 756] (Executive) put
+   dup [612 936] (FanFoldGermanLegal) put
+   dup [609 893] (215x315mm) put
+   dup [576 720] (8x10) put
+   dup [288 432] (Postcard4x6) put
+   dup [360 504] (5x7) put
+   dup [632 842] (A4Oversized) put
+   dup [648 792] (9x11) put
+   dup [595 842] (A4) put
+   dup [842 1191] (A3) put
+   dup [420 595] (A5) put
+   dup [297 420] (A6) put
+   dup [729 1032] (B4) put
+   dup [516 729] (B5) put
+   dup [279 540] (EnvMonarch) put
+   dup [312 624] (EnvDL) put
+   dup [297 684] (Env10) put
+   dup [459 649] (EnvC5) put
+   dup [649 918] (EnvC4) put
+
+ { exch aload pop 4 index sub abs 5 le exch
+   5 index sub abs 5 le and
+      {exch pop exit} {pop} ifelse
+   } bind forall
+   = flush pop pop
+restore
+"
+*End
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion:  PickOne
+*OrderDependency: 40.0 AnySetup *PageRegion
+*DefaultPageRegion: Letter
+*PageRegion Letter/Letter (8.5 x 11"): "2 dict dup /PageSize [612 792] put dup /ImagingBBox null put setpagedevice"
+*PageRegion Legal/Legal (8.5 x 14"): "2 dict dup /PageSize [612 1008] put dup /ImagingBBox null put setpagedevice"
+*PageRegion Tabloid/Tabloid (11 x 17"): "2 dict dup /PageSize [792 1224] put dup /ImagingBBox null put setpagedevice"
+*PageRegion Postcard4x6/Postcard (4 x 6"): "2 dict dup /PageSize [288 432] put dup /ImagingBBox null put setpagedevice"
+*PageRegion 5x7/5 x 7": "2 dict dup /PageSize [360 504] put dup /ImagingBBox null put setpagedevice"
+*PageRegion Statement/Statement (5.5 x 8.5"): "2 dict dup /PageSize [396 612] put dup /ImagingBBox null put setpagedevice"
+*PageRegion Executive/Executive (7.25 x 10.5"): "2 dict dup /PageSize [522 756] put dup /ImagingBBox null put setpagedevice"
+*PageRegion 8x10/8 x 10": "2 dict dup /PageSize [576 720] put dup /ImagingBBox null put setpagedevice"
+*PageRegion FanFoldGermanLegal/8.5 x 13": "2 dict dup /PageSize [612 936] put dup /ImagingBBox null put setpagedevice"
+*PageRegion 9x11/9 x 11": "2 dict dup /PageSize [648 792] put dup /ImagingBBox null put setpagedevice"
+*PageRegion 11x15/11 x 15": "2 dict dup /PageSize [792 1080] put dup /ImagingBBox null put setpagedevice"
+*PageRegion A3/A3 (297 x 420 mm): "2 dict dup /PageSize [842 1191] put dup /ImagingBBox null put setpagedevice"
+*PageRegion A4/A4 (210 x 297 mm): "2 dict dup /PageSize [595 842] put dup /ImagingBBox null put setpagedevice"
+*PageRegion A5/A5 (148 x 210 mm): "2 dict dup /PageSize [420 595] put dup /ImagingBBox null put setpagedevice"
+*PageRegion A6/A6 (105 x 148 mm): "2 dict dup /PageSize [297 420] put dup /ImagingBBox null put setpagedevice"
+*PageRegion B4/JIS B4 (257 x 364 mm): "2 dict dup /PageSize [729 1032] put dup /ImagingBBox null put setpagedevice"
+*PageRegion B5/JIS B5 (182 x 257 mm): "2 dict dup /PageSize [516 729] put dup /ImagingBBox null put setpagedevice"
+*PageRegion 215x315mm/215 x 315 mm: "2 dict dup /PageSize [609 893] put dup /ImagingBBox null put setpagedevice"
+*PageRegion Env10/No. 10 Envelope (4.1 x 9.5"): "2 dict dup /PageSize [297 684] put dup /ImagingBBox null put setpagedevice"
+*PageRegion EnvMonarch/Monarch Envelope (3.9 x 7.5"): "2 dict dup /PageSize [279 540] put dup /ImagingBBox null put setpagedevice"
+*PageRegion EnvDL/DL Envelope (110 x 220 mm): "2 dict dup /PageSize [312 624] put dup /ImagingBBox null put setpagedevice"
+*PageRegion A4Oversized/A4 Oversized (223 x 297 mm): "2 dict dup /PageSize [632 842] put dup /ImagingBBox null put setpagedevice"
+*PageRegion EnvC5/C5 Envelope (162 x 229 mm): "2 dict dup /PageSize [459 649] put dup /ImagingBBox null put setpagedevice"
+*PageRegion EnvC4/C4 Envelope (229 x 324 mm): "2 dict dup /PageSize [649 918] put dup /ImagingBBox null put setpagedevice"
+
+*CloseUI: *PageRegion
+
+*% The following entries provide information about specific paper keywords.
+*DefaultImageableArea: Letter
+*ImageableArea Letter/Letter (8.5 x 11"): "14.199999809265 14.199999809265 597.799987792969 777.799987792969"
+*ImageableArea Legal/Legal (8.5 x 14"): "14.199999809265 14.199999809265 597.799987792969 993.799987792969"
+*ImageableArea Tabloid/Tabloid (11 x 17"): "14.199999809265 14.199999809265 777.799987792969 1209.800048828125"
+*ImageableArea Postcard4x6/Postcard (4 x 6"): "14.199999809265 14.199999809265 273.799987792969 417.799987792969"
+*ImageableArea 5x7/5 x 7": "14.199999809265 14.199999809265 345.799987792969 489.799987792969"
+*ImageableArea Statement/Statement (5.5 x 8.5"): "14.199999809265 14.199999809265 381.799987792969 597.799987792969"
+*ImageableArea Executive/Executive (7.25 x 10.5"): "14.199999809265 14.199999809265 507.799987792969 741.799987792969"
+*ImageableArea 8x10/8 x 10": "14.199999809265 14.199999809265 561.799987792969 705.799987792969"
+*ImageableArea FanFoldGermanLegal/8.5 x 13": "14.199999809265 14.199999809265 597.799987792969 921.799987792969"
+*ImageableArea 9x11/9 x 11": "14.199999809265 14.199999809265 633.799987792969 777.799987792969"
+*ImageableArea 11x15/11 x 15": "14.199999809265 14.199999809265 777.799987792969 1065.800048828125"
+*ImageableArea A3/A3 (297 x 420 mm): "14.199999809265 14.199999809265 827.799987792969 1176.800048828125"
+*ImageableArea Env10/No. 10 Envelope (4.1 x 9.5"): "14.199999809265 14.199999809265 282.799987792969 669.799987792969"
+*ImageableArea EnvMonarch/Monarch Envelope (3.9 x 7.5"): "14.199999809265 14.199999809265 264.799987792969 525.799987792969"
+*ImageableArea EnvDL/DL Envelope (110 x 220 mm): "14.199999809265 14.199999809265 297.799987792969 609.799987792969"
+*ImageableArea A4Oversized/A4 Oversized (223 x 297 mm): "14.199999809265 14.199999809265 617.799987792969 827.799987792969"
+*ImageableArea A4/A4 (210 x 297 mm): "14.199999809265 14.199999809265 580.799987792969 827.799987792969"
+*ImageableArea A5/A5 (148 x 210 mm): "14.199999809265 14.199999809265 405.799987792969 580.799987792969"
+*ImageableArea A6/A6 (105 x 148 mm): "14.199999809265 14.199999809265 282.799987792969 405.799987792969"
+*ImageableArea B4/JIS B4 (257 x 364 mm): "14.199999809265 14.199999809265 714.799987792969 1017.799987792969"
+*ImageableArea B5/JIS B5 (182 x 257 mm): "14.199999809265 14.199999809265 501.799987792969 714.799987792969"
+*ImageableArea 215x315mm/215 x 315 mm: "14.199999809265 14.199999809265 594.799987792969 878.799987792969"
+*ImageableArea EnvC5/C5 Envelope (162 x 229 mm): "14.199999809265 14.199999809265 444.799987792969 634.799987792969"
+*ImageableArea EnvC4/C4 Envelope (229 x 324 mm): "14.199999809265 14.199999809265 637.799987792969 906.799987792969"
+
+*?ImageableArea: "
+ save
+   /cvp { (                ) cvs print ( ) print } bind def
+   /upperright {10000 mul floor 10000 div} bind def
+   /lowerleft {10000 mul ceiling 10000 div} bind def
+   newpath clippath pathbbox
+   4 -2 roll exch 2 {lowerleft cvp} repeat
+   exch 2 {upperright cvp} repeat flush
+ restore
+"
+*End
+
+*% These provide the physical dimensions of the paper (by keyword)
+*DefaultPaperDimension: Letter
+*PaperDimension Letter/Letter (8.5 x 11"): "612 792"
+*PaperDimension Legal/Legal (8.5 x 14"): "612 1008"
+*PaperDimension Tabloid/Tabloid (11 x 17"): "792 1224"
+*PaperDimension Postcard4x6/Postcard (4 x 6"): "288 432"
+*PaperDimension 5x7/5 x 7": "360 504"
+*PaperDimension Statement/Statement (5.5 x 8.5"): "396 612"
+*PaperDimension Executive/Executive (7.25 x 10.5"): "522 756"
+*PaperDimension 8x10/8 x 10": "576 720"
+*PaperDimension FanFoldGermanLegal/8.5 x 13": "612 936"
+*PaperDimension 9x11/9 x 11": "648 792"
+*PaperDimension 11x15/11 x 15": "792 1080"
+*PaperDimension A3/A3 (297 x 420 mm): "842 1191"
+*PaperDimension A4/A4 (210 x 297 mm): "595 842"
+*PaperDimension A5/A5 (148 x 210 mm): "420 595"
+*PaperDimension A6/A6 (105 x 148 mm): "297 420"
+*PaperDimension B4/JIS B4 (257 x 364 mm): "729 1032"
+*PaperDimension B5/JIS B5 (182 x 257 mm): "516 729"
+*PaperDimension 215x315mm/215 x 315 mm: "609 893"
+*PaperDimension Env10/No. 10 Envelope (4.1 x 9.5"): "297 684"
+*PaperDimension EnvMonarch/Monarch Envelope (3.9 x 7.5"): "279 540"
+*PaperDimension EnvDL/DL Envelope (110 x 220 mm): "312 624"
+*PaperDimension EnvC5/C5 Envelope (162 x 229 mm): "459 649"
+*PaperDimension A4Oversized/A4 Oversized (223 x 297 mm): "632 842"
+*PaperDimension EnvC4/C4 Envelope (229 x 324 mm): "649 918"
+
+*OpenUI *MediaType:  PickOne
+*OrderDependency: 30.0 AnySetup *MediaType
+*DefaultMediaType: PrinterDefault
+*MediaType PrinterDefault/Printer Default Type: "1 dict dup /MediaType (system-default) put setpagedevice"
+*MediaType Plain/Plain: "1 dict dup /MediaType (stationery) put setpagedevice"
+*MediaType PlainReload/Plain Reloaded: "1 dict dup /MediaType (stationery-reloaded) put setpagedevice"
+*MediaType Punched/Hole Punched: "1 dict dup /MediaType (stationery-pre-punched) put setpagedevice"
+*MediaType Recycled/Recycled: "1 dict dup /MediaType (stationery-recycled) put setpagedevice"
+*MediaType Letterhead/Letterhead: "1 dict dup /MediaType (stationery-letterhead) put setpagedevice"
+*MediaType LightweightCardstock/Lightweight Cardstock: "1 dict dup /MediaType (cardstock-lightweight) put setpagedevice"
+*MediaType LightweightCardstockReloaded/Lightweight Cardstock Reloaded: "1 dict dup /MediaType (cardstock-lightweight-reloaded) put setpagedevice"
+*MediaType LightweightGlossyCardstock/Lightweight Glossy Cardstock: "1 dict dup /MediaType (cardstock-lightweight-glossy) put setpagedevice"
+*MediaType LightweightGlossyCardstockReloaded/Lightweight Glossy Cardstock Reloaded: "1 dict dup /MediaType (scardstock-lightweight-glossy-reloaded) put setpagedevice"
+*MediaType GlossyCardstock/Glossy Cardstock: "1 dict dup /MediaType (cardstock-glossy) put setpagedevice"
+*MediaType GlossyCardstockReloaded/Glossy Cardstock Reloaded: "1 dict dup /MediaType (cardstock-glossy-reloaded) put setpagedevice"
+*MediaType HeavyweightGlossyCardstock/Heavyweight Glossy Cardstock: "1 dict dup /MediaType (cardstock-heavyweight-glossy) put setpagedevice"
+*MediaType HeavyweightGlossyCardstockReloaded/Heavyweight Glossy Cardstock Reloaded: "1 dict dup /MediaType (cardstock-heavyweight-glossy-reloaded) put setpagedevice"
+*MediaType HeavyweightCardstock/Heavyweight Cardstock: "1 dict dup /MediaType (cardstock-heavyweight) put setpagedevice"
+*MediaType HeavyweightCardstockReloaded/Heavyweight Cardstock Reloaded: "1 dict dup /MediaType (cardstock-heavyweight-reloaded) put setpagedevice"
+*MediaType ThinCardStock/Cardstock: "1 dict dup /MediaType (cardstock) put setpagedevice"
+*MediaType CardstockReloaded/Cardstock Reloaded: "1 dict dup /MediaType (cardstock-reloaded) put setpagedevice"
+*MediaType Labels/Labels: "1 dict dup /MediaType (labels) put setpagedevice"
+*MediaType HeavyweightLabels/Heavyweight Labels: "1 dict dup /MediaType (labels-heavyweight) put setpagedevice"
+*MediaType ExtraHeavyweightLabels/Extra Heavyweight Labels: "1 dict dup /MediaType (labels-extra-heavyweight) put setpagedevice"
+*MediaType Preprinted/Pre-Printed: "1 dict dup /MediaType (stationery-pre-printed) put setpagedevice"
+*MediaType Bond/Bond: "1 dict dup /MediaType (bond) put setpagedevice"
+*MediaType Envelope/Envelope: "1 dict dup /MediaType (envelope) put setpagedevice"  
+*MediaType Custom1/Custom Type 1: "1 dict dup /MediaType (custom1) put setpagedevice"
+*MediaType Custom2/Custom Type 2: "1 dict dup /MediaType (custom2) put setpagedevice"
+*MediaType Custom3/Custom Type 3: "1 dict dup /MediaType (custom3) put setpagedevice"
+*MediaType Custom4/Custom Type 4: "1 dict dup /MediaType (custom4) put setpagedevice"
+*MediaType Custom5/Custom Type 5: "1 dict dup /MediaType (custom5) put setpagedevice"
+*MediaType Other/Other Type: "1 dict dup /MediaType (other) put setpagedevice"
+*MediaType AutoSelect/Automatically Select: "1 dict dup /MediaType (use-ready) put setpagedevice"
+
+*?MediaType: "
+currentpagedevice dup /MediaType known
+{ /MediaType get 
+( ) search { 3 1 roll pop 2 -1 roll (         ) cvs print (                  ) cvs print () } 
+ { dup null eq  { pop (Unknown) } if } ifelse } 
+{ pop (Unknown) }
+ifelse = flush
+"
+*End
+*CloseUI: *MediaType
+
+*OpenUI *MediaColor:  PickOne
+*OrderDependency: 30.0 AnySetup *MediaColor
+*DefaultMediaColor: White
+*MediaColor SystemDefault/Printer Default Color: "1 dict dup /MediaColor (system-default) put setpagedevice"
+*MediaColor White/White: "1 dict dup /MediaColor (white) put setpagedevice"
+*MediaColor Blue/Blue: "1 dict dup /MediaColor (blue) put setpagedevice"
+*MediaColor Yellow/Yellow: "1 dict dup /MediaColor (yellow) put setpagedevice"
+*MediaColor Green/Green: "1 dict dup /MediaColor (green) put setpagedevice"
+*MediaColor Pink/Pink: "1 dict dup /MediaColor (pink) put setpagedevice"
+*MediaColor Ivory/Ivory: "1 dict dup /MediaColor (ivory) put setpagedevice"
+*MediaColor Gray/Gray: "1 dict dup /MediaColor (gray) put setpagedevice"
+*MediaColor Buff/Buff: "1 dict dup /MediaColor (buff) put setpagedevice"
+*MediaColor Goldenrod/Goldenrod: "1 dict dup /MediaColor (goldenrod) put setpagedevice"
+*MediaColor Red/Red: "1 dict dup /MediaColor (red) put setpagedevice"
+*MediaColor Orange/Orange: "1 dict dup /MediaColor (orange) put setpagedevice"
+*MediaColor CustomColor1/Custom Color 1: "1 dict dup /MediaColor (custom1) put setpagedevice"
+*MediaColor CustomColor2/Custom Color 2: "1 dict dup /MediaColor (custom2) put setpagedevice"
+*MediaColor CustomColor3/Custom Color 3: "1 dict dup /MediaColor (custom3) put setpagedevice"
+*MediaColor CustomColor4/Custom Color 4: "1 dict dup /MediaColor (custom4) put setpagedevice"
+*MediaColor CustomColor5/Custom Color 5: "1 dict dup /MediaColor (custom5) put setpagedevice"
+*MediaColor Other/Other Color: "1 dict dup /MediaColor (other) put setpagedevice"
+*MediaColor Auto/Automatically Select: "1 dict dup /MediaColor (use-ready) put setpagedevice"
+*?MediaColor: "
+  save
+    currentpagedevice /MediaColor
+     {get} stopped
+       {pop pop (white)} {dup null eq {pop (white)} if} ifelse
+    = flush
+  restore
+"
+*End
+*CloseUI: *MediaColor
+
+*RequiresPageRegion All: True
+
+*DefaultOutputOrder:  Normal
+
+*%  ----------Begin Finishing Group----------
+*OpenGroup: XRXFinishing/Finishing Options
+
+*OpenUI *Duplex/2 Sided Printing: PickOne
+*OrderDependency: 10.0 AnySetup *Duplex
+*DefaultDuplex: DuplexNoTumble
+*Duplex None/1-Sided Print: "<< /Duplex false /Tumble false >> setpagedevice"
+*Duplex DuplexNoTumble/2 Sided Print: "<< /Duplex true /Tumble false >> setpagedevice"
+*Duplex DuplexTumble/2-Sided Print, Flip on Short Edge: "<< /Duplex true /Tumble true >> setpagedevice"
+*CloseUI: *Duplex
+
+*% === Collation =====================
+*OpenUI *Collate/Collated: Boolean
+*OrderDependency: 50.0 AnySetup *Collate
+*DefaultCollate: True
+*Collate True/On: "1 dict dup /Collate true put setpagedevice"
+*Collate False/Off: "1 dict dup /Collate false put setpagedevice"
+*?Collate: "
+save
+  currentpagedevice /Collate get
+  {(True)}{(False)}ifelse = flush
+restore
+"
+*End
+*CloseUI: *Collate
+
+*OpenUI *InputSlot/InputSlot: PickOne
+*OrderDependency: 10 AnySetup *InputSlot
+*DefaultInputSlot: Tray1
+*InputSlot Tray1/Tray 1: "<< (tray-1) xerox$MediaInputTray >> setpagedevice"
+*InputSlot Tray2/Tray 2: "<< (tray-2) xerox$MediaInputTray >> setpagedevice"
+*InputSlot Tray3/Tray 3: "<< (tray-3) xerox$MediaInputTray >> setpagedevice"
+*InputSlot Tray4/Tray 4: "<< (tray-4) xerox$MediaInputTray >> setpagedevice"
+*InputSlot Tray5/Bypass Tray: "<< (bypass-tray) xerox$MediaInputTray >> setpagedevice"
+*CloseUI: *InputSlot
+
+*OpenSubGroup: PrintQuality/Print Quality/Color
+
+*OpenUI *OutputMode/Print Quality: PickOne
+*OrderDependency: 46.0 AnySetup *OutputMode
+*DefaultOutputMode: Standard
+*OutputMode Enhanced/Enhanced: "
+	<</PostRenderingEnhance true
+	/PostRenderingEnhanceDetails currentpagedevice
+	1 index get 1 dict copy
+	dup /Type 33 put
+	dup /OutputMode (enhanced) put
+	>> setpagedevice
+"
+*End
+*OutputMode Standard/Standard: "
+	<</PostRenderingEnhance true
+	/PostRenderingEnhanceDetails currentpagedevice
+	1 index get 1 dict copy
+	dup /Type 33 put
+	dup /OutputMode (standard) put
+	>> setpagedevice
+"
+*End
+*OutputMode PhotoMode/Photo Mode: "
+	<</PostRenderingEnhance true
+	/PostRenderingEnhanceDetails currentpagedevice
+	1 index get 1 dict copy
+	dup /Type 33 put
+	dup /OutputMode (photographic) put
+	>> setpagedevice
+"
+*End
+*CloseUI: *OutputMode
+
+*CloseSubGroup: PrintQuality
+
+*OpenUI *StapleLocation/Stapling: PickOne
+*OrderDependency: 10 AnySetup *StapleLocation
+*DefaultStapleLocation: None
+*StapleLocation None/No Staples: " 
+<< /Staple 0 >> setpagedevice
+"
+*End
+*StapleLocation SinglePortrait/1 Staple (Portrait): "
+    << /Collate true /Staple 3 /StapleDetails << /Type 7 /Location 0 >> >> setpagedevice
+"
+*End
+*StapleLocation SingleLandscape/1 Staple (Landscape): "
+    << /Collate true /Staple 3 /StapleDetails << /Type 7 /Location 1 >> >> setpagedevice
+"
+*End
+*StapleLocation DualPortrait/2 Staples (Portrait): "
+    userdict /XRXShortEdgeFinishing known
+    { << /Collate true /Staple 3 /LeadingEdge 0 /StapleDetails << /Type 7 /Location 4 >> >> setpagedevice }
+    { << /Collate true /Staple 3 /LeadingEdge 1 /StapleDetails << /Type 7 /Location 6 >> >> setpagedevice } ifelse
+"
+*End
+*StapleLocation DualLandscape/2 Staples (Landscape): "
+   userdict /XRXShortEdgeFinishing known
+    { << /Collate true /Staple 3 /LeadingEdge 0 /StapleDetails << /Type 7 /Location 5 >> >> setpagedevice }
+    { << /Collate true /Staple 3 /LeadingEdge 1 /StapleDetails << /Type 7 /Location 6 >> >> setpagedevice } ifelse
+"
+*End		
+*CloseUI: *StapleLocation
+
+*OpenUI *XRPunchOption/Hole Punch: PickOne
+*OrderDependency: 50.0 AnySetup *XRPunchOption
+*DefaultXRPunchOption: None
+*XRPunchOption None/No Hole Punching: "<< /Punch 0 >> setpagedevice"
+*XRPunchOption 2Punch/2 Hole Punch (Portrait): "
+    userdict /XRXShortEdgeFinishing known
+	{ 1 dict dup/PunchDetails 1 dict dup/NumHoles 2 put put setpagedevice  
+	4 dict begin
+	/Punch 3 def
+	currentpagedevice /Punch get 0 eq {/LeadingEdge 0 def} if
+	2 dict begin
+	/Type 5 def
+	/Position 0 def currentdict end
+	/PunchDetails exch def currentdict end
+	setpagedevice 
+	}
+	{ 
+	1 dict dup/PunchDetails 1 dict dup/NumHoles 2 put put setpagedevice
+	4 dict begin
+	/Punch 3 def
+	currentpagedevice /Punch get 0 eq {/LeadingEdge 1 def} if
+	2 dict begin
+	/Type 5 def
+	/Position 2 def currentdict end
+	/PunchDetails exch def currentdict end
+	setpagedevice
+	} ifelse	
+"
+*End
+*XRPunchOption 2HolePunchLandscape/2 Hole Punch (Landscape): "
+  userdict /XRXShortEdgeFinishing known
+	{ 
+	1 dict dup/PunchDetails 1 dict dup/NumHoles 2 put put setpagedevice
+	4 dict begin
+	/Punch 3 def
+	currentpagedevice /Punch get 0 eq {/LeadingEdge 0 def} if
+	2 dict begin
+	/Type 5 def
+	/Position 1 def currentdict end
+	/PunchDetails exch def currentdict end
+	Setpagedevice
+	}
+	{
+	1 dict dup/PunchDetails 1 dict dup/NumHoles 2 put put setpagedevice
+	4 dict begin
+	/Punch 3 def
+	currentpagedevice /Punch get 0 eq {/LeadingEdge 1 def} if
+	2 dict begin
+	/Type 5 def
+	/Position 2 def currentdict end
+	/PunchDetails exch def currentdict end
+	setpagedevice
+	} ifelse
+"
+*End
+
+*XRPunchOption 3Punch/3 Hole Punch (Portrait): "
+userdict /XRXShortEdgeFinishing known
+	{
+	1 dict dup/PunchDetails 1 dict dup/NumHoles 3 put put setpagedevice
+	4 dict begin
+	/Punch 3 def
+	currentpagedevice /Punch get 0 eq {/LeadingEdge 0 def} if
+	2 dict begin
+	/Type 5 def
+	/Position 0 def currentdict end
+	/PunchDetails exch def currentdict end
+	setpagedevice
+	}
+	{ 
+	1 dict dup/PunchDetails 1 dict dup/NumHoles 3 put put setpagedevice
+	4 dict begin
+	/Punch 3 def
+	currentpagedevice /Punch get 0 eq {/LeadingEdge 1 def} if
+	2 dict begin
+	/Type 5 def
+	/Position 2 def currentdict end
+	/PunchDetails exch def currentdict end
+	setpagedevice
+	} ifelse
+"
+*End
+*XRPunchOption 3PunchLandscape/3 Hole Punch (Landscape): "
+    userdict /XRXShortEdgeFinishing known
+	{
+	1 dict dup/PunchDetails 1 dict dup/NumHoles 3 put put setpagedevice
+	4 dict begin
+	/Punch 3 def
+	currentpagedevice /Punch get 0 eq {/LeadingEdge 0 def} if
+	2 dict begin
+	/Type 5 def
+	/Position 1 def currentdict end
+	/PunchDetails exch def currentdict end
+	Setpagedevice
+	}
+	{ 
+	1 dict dup/PunchDetails 1 dict dup/NumHoles 3 put put setpagedevice
+	4 dict begin
+	/Punch 3 def
+	currentpagedevice /Punch get 0 eq {/LeadingEdge 1 def} if
+	2 dict begin
+	/Type 5 def
+	/Position 2 def currentdict end
+	/PunchDetails exch def currentdict end
+	setpagedevice
+	} ifelse	
+"
+*End
+
+*XRPunchOption 4Punch/4 Hole Punch (Portrait): "
+    userdict /XRXShortEdgeFinishing known
+	{ 
+	1 dict dup/PunchDetails 1 dict dup/NumHoles 4 put put setpagedevice
+	4 dict begin
+	/Punch 3 def
+	currentpagedevice /Punch get 0 eq {/LeadingEdge 0 def} if
+	2 dict begin
+	/Type 5 def
+	/Position 0 def currentdict end
+	/PunchDetails exch def currentdict end
+	setpagedevice
+	}
+	{ 
+	1 dict dup/PunchDetails 1 dict dup/NumHoles 4 put put setpagedevice
+	4 dict begin
+	/Punch 3 def
+	currentpagedevice /Punch get 0 eq {/LeadingEdge 1 def} if
+	2 dict begin
+	/Type 5 def
+	/Position 2 def currentdict end
+	/PunchDetails exch def currentdict end
+	setpagedevice
+	} ifelse
+"
+*End
+*XRPunchOption 4HolePunchLandscape/4 Hole Punch (Landscape): "
+    userdict /XRXShortEdgeFinishing known
+
+	{ 
+	1 dict dup/PunchDetails 1 dict dup/NumHoles 4 put put setpagedevice
+	4 dict begin
+	/Punch 3 def
+	currentpagedevice /Punch get 0 eq {/LeadingEdge 0 def} if
+	2 dict begin
+	/Type 5 def
+	/Position 1 def currentdict end
+	/PunchDetails exch def currentdict end
+	Setpagedevice
+	}
+	{ 
+	1 dict dup/PunchDetails 1 dict dup/NumHoles 4 put put setpagedevice
+	4 dict begin
+	/Punch 3 def
+	currentpagedevice /Punch get 0 eq {/LeadingEdge 1 def} if
+	2 dict begin
+	/Type 5 def
+	/Position 2 def currentdict end
+	/PunchDetails exch def currentdict end
+	setpagedevice
+	} ifelse
+"
+*End
+*CloseUI: *XRPunchOption
+
+*OpenUI *XRFoldOption/Fold: PickOne
+*OrderDependency: 10 AnySetup *XRFoldOption
+*DefaultXRFoldOption: None
+*XRFoldOption None/None: ""
+*XRFoldOption BiFold/Booklet Fold: "<< /Collate true /OutputType (BOOKLET TRAY) /LeadingEdge 0 /Booklet true /BookletDetails << /Type 3 /StapleType 0 /PrintInside true /PageSet true >> >> setpagedevice"
+*End
+*XRFoldOption BiFoldAndStaple/Booklet Fold and Staple: "<< /Collate true /OutputType (BOOKLET TRAY) /LeadingEdge 0 /Booklet true /BookletDetails << /Type 3 /StapleType 1 /PrintInside true /PageSet true >> >> setpagedevice"
+*End
+*CloseUI: *XRFoldOption
+
+*% ----------Close finishing options----------
+*CloseGroup: XRXFinishing
+
+*%		========= Banner Sheet ==========
+*JCLBegin:"<1B>%-12345X@PJL JOB<0A>"
+
+*JCLOpenUI *JCLBanner/Banner Sheet: Boolean
+*OrderDependency: 10.0 JCLSetup *JCLBanner
+*DefaultJCLBanner: False
+*JCLBanner False/Disabled: "@PJL SET JOBATTR=<22>@BANR=OFF<22><0A>"
+*JCLBanner True/Enabled: "@PJL SET JOBATTR=<22>@BANR=START<22><0A>"
+*JCLCloseUI: *JCLBanner
+
+*JCLOpenUI *JCLJobType/Job Type: PickOne
+*OrderDependency: 20.0 JCLSetup *JCLJobType
+*DefaultJCLJobType: Normal
+*JCLJobType Normal/Normal Print: "@PJL JOB MODE=PRINTER<0A>"
+*JCLCloseUI: *JCLJobType
+
+*JCLToPSInterpreter:"@PJL ENTER LANGUAGE = POSTSCRIPT<0A>"
+*JCLEnd:"<1B>%-12345X@PJL EOJ<0A><1B>%-12345X<0A>"
+
+*% Halftone Information ===============
+*DefaultHalftoneType: 5
+*ScreenFreq: "85.0"
+*ScreenAngle: "45.0"
+*DefaultScreenProc: Dot
+*ScreenProc Dot: "{180 mul cos exch 180 mul cos add 2 div} bind"
+*ScreenProc Line: "{ pop }"
+*ScreenProc Ellipse: "{ dup 5 mul 8 div mul exch dup mul exch add sqrt 1 exch sub }"
+*DefaultTransfer: Null
+*Transfer Null: "{ }"
+*Transfer Null.Inverse: "{ 1 exch sub }"
+
+
+*% =============== Font Information ===============
+
+*FCacheSize 768Meg: 1441792
+*FCacheSize 1024Meg: 1441792
+
+*DefaultFont: Courier
+
+*Font AlbertusMT-Italic: Standard "(001.001)" Standard ROM
+*Font AlbertusMT-Light: Standard "(001.001)" Standard ROM
+*Font AlbertusMT: Standard "(001.001)" Standard ROM
+*Font AntiqueOlive-Bold: Standard "(001.002)" Standard ROM
+*Font AntiqueOlive-Compact: Standard "(001.002)" Standard ROM
+*Font AntiqueOlive-Italic: Standard "(001.002)" Standard ROM
+*Font AntiqueOlive-Roman: Standard "(001.002)" Standard ROM
+*Font Apple-Chancery: Standard "(001.002)" ExtendedRoman ROM
+*Font Arial-BoldItalicMT: Standard "(001.003)" Standard ROM
+*Font Arial-BoldMT: Standard "(001.003)" Standard ROM
+*Font Arial-ItalicMT: Standard "(001.003)" Standard ROM
+*Font ArialMT: Standard "(001.003)" Standard ROM
+*Font AvantGarde-Book: Standard "(003.000)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(003.000)" Standard ROM
+*Font AvantGarde-Demi: Standard "(003.000)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(003.000)" Standard ROM
+*Font Bodoni-Bold: Standard "(001.003)" Standard ROM
+*Font Bodoni-BoldItalic: Standard "(001.003)" Standard ROM
+*Font Bodoni-Italic: Standard "(001.003)" Standard ROM
+*Font Bodoni-Poster: Standard "(001.003)" Standard ROM
+*Font Bodoni-PosterCompressed: Standard "(001.002)" Standard ROM
+*Font Bodoni: Standard "(001.003)" Standard ROM
+*Font Bookman-Demi: Standard "(003.000)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(003.000)" Standard ROM
+*Font Bookman-Light: Standard "(003.000)" Standard ROM
+*Font Bookman-LightItalic: Standard "(003.000)" Standard ROM
+*Font Carta: Special "(001.001)" Special ROM
+*Font Chicago: Standard "(001.000)" ExtendedRoman ROM
+*Font Clarendon-Bold: Standard "(001.002)" Standard ROM
+*Font Clarendon-Light: Standard "(001.002)" Standard ROM
+*Font Clarendon: Standard "(001.002)" Standard ROM
+*Font CooperBlack-Italic: Standard "(001.004)" Standard ROM
+*Font CooperBlack: Standard "(001.004)" Standard ROM
+*Font Copperplate-ThirtyThreeBC: Standard "(001.003)" Standard ROM
+*Font Copperplate-ThirtyTwoBC: Standard "(001.003)" Standard ROM
+*Font Coronet-Regular: Standard "(001.002)" Standard ROM
+*Font Courier-Bold: Standard "(004.000)" Standard ROM
+*Font Courier-BoldOblique: Standard "(004.000)" Standard ROM
+*Font Courier-Oblique: Standard "(004.000)" Standard ROM
+*Font Courier: Standard "(004.000)" Standard ROM
+*Font Eurostile-Bold: Standard "(001.002)" Standard ROM
+*Font Eurostile-BoldExtendedTwo: Standard "(001.003)" Standard ROM
+*Font Eurostile-ExtendedTwo: Standard "(001.003)" Standard ROM
+*Font Eurostile: Standard "(001.003)" Standard ROM
+*Font Geneva: Standard "(001.000)" ExtendedRoman ROM
+*Font GillSans-Bold: Standard "(001.002)" Standard ROM
+*Font GillSans-BoldCondensed: Standard "(001.002)" Standard ROM
+*Font GillSans-BoldItalic: Standard "(001.003)" Standard ROM
+*Font GillSans-Condensed: Standard "(001.002)" Standard ROM
+*Font GillSans-ExtraBold: Standard "(001.002)" Standard ROM
+*Font GillSans-Italic: Standard "(001.003)" Standard ROM
+*Font GillSans-Light: Standard "(001.002)" Standard ROM
+*Font GillSans-LightItalic: Standard "(001.003)" Standard ROM
+*Font GillSans: Standard "(001.003)" Standard ROM
+*Font Goudy-Bold: Standard "(001.003)" Standard ROM
+*Font Goudy-BoldItalic: Standard "(001.003)" Standard ROM
+*Font Goudy-ExtraBold: Standard "(001.002)" Standard ROM
+*Font Goudy-Italic: Standard "(001.003)" Standard ROM
+*Font Goudy: Standard "(001.004)" Standard ROM
+*Font Helvetica-Bold: Standard "(003.000)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(003.000)" Standard ROM
+*Font Helvetica-Condensed-Bold: Standard "(003.000)" Standard ROM
+*Font Helvetica-Condensed-BoldObl: Standard "(003.000)" Standard ROM
+*Font Helvetica-Condensed-Oblique: Standard "(003.000)" Standard ROM
+*Font Helvetica-Condensed: Standard "(003.000)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(003.000)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(003.000)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(003.000)" Standard ROM
+*Font Helvetica-Narrow: Standard "(003.000)" Standard ROM
+*Font Helvetica-Oblique: Standard "(003.000)" Standard ROM
+*Font Helvetica: Standard "(003.000)" Standard ROM
+*Font HoeflerText-Black: Standard "(001.000)" ExtendedRoman ROM
+*Font HoeflerText-BlackItalic: Standard "(001.000)" ExtendedRoman ROM
+*Font HoeflerText-Italic: Standard "(001.000)" ExtendedRoman ROM
+*Font HoeflerText-Ornaments: Special "(001.001)" Special ROM
+*Font HoeflerText-Regular: Standard "(001.000)" ExtendedRoman ROM
+*Font JoannaMT-Bold: Standard "(001.001)" Standard ROM
+*Font JoannaMT-BoldItalic: Standard "(001.001)" Standard ROM
+*Font JoannaMT-Italic: Standard "(001.001)" Standard ROM
+*Font JoannaMT: Standard "(001.001)" Standard ROM
+*Font LetterGothic-Bold: Standard "(001.007)" Standard ROM
+*Font LetterGothic-BoldSlanted: Standard "(001.006)" Standard ROM
+*Font LetterGothic-Slanted: Standard "(001.005)" Standard ROM
+*Font LetterGothic: Standard "(001.005)" Standard ROM
+*Font LubalinGraph-Book: Standard "(001.004)" Standard ROM
+*Font LubalinGraph-BookOblique: Standard "(001.004)" Standard ROM
+*Font LubalinGraph-Demi: Standard "(001.004)" Standard ROM
+*Font LubalinGraph-DemiOblique: Standard "(001.004)" Standard ROM
+*Font Marigold: Standard "(001.001)" Standard ROM
+*Font MonaLisa-Recut: Standard "(001.001)" Standard ROM
+*Font Monaco: Standard "(001.001)" ExtendedRoman ROM
+*Font NewCenturySchlbk-Bold: Standard "(003.000)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(003.000)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(003.000)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(003.000)" Standard ROM
+*Font NewYork: Standard "(001.000)" ExtendedRoman ROM
+*Font OCRBLetM: Standard "(1.05)" Standard ROM
+*Font Optima-Bold: Standard "(001.007)" Standard ROM
+*Font Optima-BoldItalic: Standard "(001.001)" Standard ROM
+*Font Optima-Italic: Standard "(001.001)" Standard ROM
+*Font Optima: Standard "(001.006)" Standard ROM
+*Font Oxford: Standard "(001.001)" Standard ROM
+*Font Palatino-Bold: Standard "(003.000)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(003.000)" Standard ROM
+*Font Palatino-Italic: Standard "(003.000)" Standard ROM
+*Font Palatino-Roman: Standard "(003.000)" Standard ROM
+*Font StempelGaramond-Bold: Standard "(001.003)" Standard ROM
+*Font StempelGaramond-BoldItalic: Standard "(001.003)" Standard ROM
+*Font StempelGaramond-Italic: Standard "(001.003)" Standard ROM
+*Font StempelGaramond-Roman: Standard "(001.003)" Standard ROM
+*Font Symbol: Special "(001.008)" Special ROM
+*Font Tekton: Standard "(001.002)" Standard ROM
+*Font Times-Bold: Standard "(003.000)" Standard ROM
+*Font Times-BoldItalic: Standard "(003.000)" Standard ROM
+*Font Times-Italic: Standard "(003.000)" Standard ROM
+*Font Times-Roman: Standard "(003.000)" Standard ROM
+*Font TimesNewRomanPS-BoldItalicMT: Standard "(001.003)" Standard ROM
+*Font TimesNewRomanPS-BoldMT: Standard "(001.004)" Standard ROM
+*Font TimesNewRomanPS-ItalicMT: Standard "(001.003)" Standard ROM
+*Font TimesNewRomanPSMT: Standard "(001.003)" Standard ROM
+*Font Univers-Bold: Standard "(001.004)" Standard ROM
+*Font Univers-BoldExt: Standard "(001.001)" Standard ROM
+*Font Univers-BoldExtObl: Standard "(001.001)" Standard ROM
+*Font Univers-BoldOblique: Standard "(001.004)" Standard ROM
+*Font Univers-Condensed: Standard "(001.003)" Standard ROM
+*Font Univers-CondensedBold: Standard "(001.002)" Standard ROM
+*Font Univers-CondensedBoldOblique: Standard "(001.002)" Standard ROM
+*Font Univers-CondensedOblique: Standard "(001.003)" Standard ROM
+*Font Univers-Extended: Standard "(001.001)" Standard ROM
+*Font Univers-ExtendedObl: Standard "(001.001)" Standard ROM
+*Font Univers-Light: Standard "(001.004)" Standard ROM
+*Font Univers-LightOblique: Standard "(001.004)" Standard ROM
+*Font Univers-Oblique: Standard "(001.004)" Standard ROM
+*Font Univers: Standard "(001.004)" Standard ROM
+*Font Wingdings-Regular: Special "(001.001)" Special ROM
+*Font ZapfChancery-MediumItalic: Standard "(003.000)" Standard ROM
+*Font ZapfDingbats: Special "(002.000)" Special ROM
+
+*?FontQuery: "
+ save
+   { count 1 gt
+      { exch dup 127 string cvs (/) print print (:) print
+        /Font resourcestatus {pop pop (Yes)} {(No)} ifelse =
+      } { exit } ifelse
+   } bind loop
+   (*) = flush
+ restore
+"
+*End
+
+*?FontList: "
+save
+  (*) {cvn ==} 128 string /Font resourceforall
+  (*) = flush
+restore
+"
+*End
+
+*% Printer Messages (verbatim from printer):
+*Message: "%%[ exitserver: permanent state may be changed ]%%"
+*Message: "%%[ Flushing: rest of job (to end-of-file) will be ignored ]%%"
+*Message: "\FontName\ not found, using Courier"
+
+*% Status (format: %%[ status: <one of these> ] %%)
+*Status: "initializing"
+*Status: "idle"
+*Status: "holding"
+*Status: "busy"
+*Status: "waiting"
+*Status: "PrinterError: Service Call"
+*Status: "PrinterError: Drum&Toner Cartridge is Missing"
+*Status: "PrinterError: No Toner"
+*Status: "PrinterError: Left Hand Cover Open"
+*Status: "PrinterError: Cabinet Left Hand Cover Open"
+*Status: "PrinterError: Duplex Docking Cover Open"
+*Status: "PrinterError: Side Tray Docking Unit Open"
+*Status: "PrinterError: Side Tray Hand Cover Open"
+*Status: "PrinterError: Tray Lifter Failed"
+*Status: "PrinterError: Paper Jam"
+*Status: "PrinterError: Paper Jam at Fuser"
+*Status: "PrinterError: Paper Jam at Registration Roller"
+*Status: "PrinterError: Paper Jam at Duplex Module"
+*Status: "PrinterError: Paper Jam at Duplex Tray"
+*Status: "PrinterError: Paper Jam at Tray1"
+*Status: "PrinterError: Paper Jam at Tray2"
+*Status: "PrinterError: Paper Jam at Tray3"
+*Status: "PrinterError: Paper Jam at Tray4"
+*Status: "PrinterError: Paper Jam at Manual Feed Tray"
+*Status: "PrinterError: Paper Jam at Side Tray"
+*Status: "PrinterError: Center bin is Full"
+*Status: "PrinterError: Duplex Module Fail"
+*Status: "PrinterError: Tray is Missing"
+*Status: "PrinterError: Any Trays are Missing"
+*Status: "PrinterError: Out of Paper in All Trays"
+*Status: "PrinterError: Out of Paper"
+*Status: "PrinterError: Out of Paper in Maunal Feed Tray"
+
+*% Printer Error (format: %%[ PrinterError: <one of these> ]%%)
+*PrinterError: "Service Call"
+*PrinterError: "Drum&Toner Cartridge is Missing"
+*PrinterError: "No Toner"
+*PrinterError: "Left Hand Cover Open"
+*PrinterError: "Cabinet Left Hand Cover Open"
+*PrinterError: "Duplex Docking Cover Open"
+*PrinterError: "Side Tray Docking Unit Open"
+*PrinterError: "Side Tray Hand Cover Open"
+*PrinterError: "Tray Lifter Failed"
+*PrinterError: "Paper Jam"
+*PrinterError: "Paper Jam at Fuser"
+*PrinterError: "Paper Jam at Registration Roller"
+*PrinterError: "Paper Jam at Duplex Module"
+*PrinterError: "Paper Jam at Duplex Tray"
+*PrinterError: "Paper Jam at Tray1"
+*PrinterError: "Paper Jam at Tray2"
+*PrinterError: "Paper Jam at Tray3"
+*PrinterError: "Paper Jam at Tray4"
+*PrinterError: "Paper Jam at Manual Feed Tray"
+*PrinterError: "Paper Jam at Side Tray"
+*PrinterError: "Center bin is Full"
+*PrinterError: "Duplex Module Fail"
+*PrinterError: "Tray is Missing"
+*PrinterError: "Any Trays are Missing"
+*PrinterError: "Out of Paper in All Trays"
+*PrinterError: "Out of Paper"
+*PrinterError: "Out of Paper in Maunal Feed Tray"
+
+
+*% Input Sources (format: %%[ status: <stat>; source: <one of these> ]%% )
+*Source: "Serial"
+*Source: "Parallel"
+*Source: "LocalTalk"
+*Source: "EtherTalk"
+*Source: "RemotePrinter"
+*Source: "PrintServer"
+*Source: "LPR"
+*Source: "Internal"
+
+*End
+
+*% Last Edit Date: May19, 2020
+*% End of xrxC7125.ppd

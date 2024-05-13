@@ -49,6 +49,10 @@ RUN sed -i 's/Listen localhost:631/Listen 0.0.0.0:631/' /etc/cups/cupsd.conf && 
     echo "ServerAlias *" >> /etc/cups/cupsd.conf && \
     echo "DefaultEncryption Never" >> /etc/cups/cupsd.conf
 
+# Add custom drivers
+COPY custom_drivers_filters/ /
+RUN chmod 755 /usr/lib/cups/*
+
 # Backup of Cups folder in case users do not add their own
 RUN cp -rp /etc/cups /etc/cups-bak
 VOLUME [ "/etc/cups" ]

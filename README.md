@@ -50,6 +50,9 @@ Environment variables that can be changed to suit your needs
 
 __Note__: The admin user/password for the Cups server is by default `print`/`print`. Can be customized via env vars.
 
+### Custom drivers
+The folder `custom_drivers_filters` has already the default CUPS folder structure to place any custom filters and drivers there. By default, Godex drivers and filters (1.1.7) and Xerox CUPS drivers (PS) are added.
+
 ## Add USB weighing scales to Printnode
 
 > [!CAUTION]
