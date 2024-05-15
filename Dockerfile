@@ -13,6 +13,7 @@ RUN apt-get update -qq  && apt-get upgrade -qqy \
     cups \
     cups-filters \
     cups-bsd \
+    libcupsimage2 \
     printer-driver-all \
     printer-driver-cups-pdf \
     printer-driver-foo2zjs \
